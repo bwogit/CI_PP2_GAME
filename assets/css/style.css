@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat&display=swap');
+
+/* setting up padding border margin to 0 for the whole site */
+
+/* below code is common to all pages same header and footer elements*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+    color: #3f3f3f
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  header li {
+    margin: 0 10px;
+  }
+  
+  footer {
+    /* padding-top: 10%;
+    margin-top: 30%; */
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  footer li {
+    margin: 0 10px;
+    display: inline;
+  }
+
+  /* Below is the Game area*/
+  
