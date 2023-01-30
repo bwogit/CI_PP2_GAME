@@ -39,6 +39,13 @@ header {
     margin: 0 10px;
   }
   
+  .current_page {
+   
+    font-weight: bold;
+    font-size: larger;
+    
+ }
+  
   footer {
     /* position: absolute; */
     /* top: 80%; */
