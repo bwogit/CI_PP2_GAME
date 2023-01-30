@@ -21,9 +21,30 @@
           </header>
     </header>
     <main>
-
+        <div id="game_area">
+            <h1 class="title">Rock Paper Scissors</h1>
+            <div id="counter">
+                <!--Player wins it is a win, computer wins it is a loss-->
+              <p>Player: <span id="wins">0</span></p>
+              <p>Computer: <span id="losses">0</span></p>
+            </div>
+            <p>Play against the computer by clicking one of these buttons</p>
+            <div id="choices">
+              <button id="rock" class="blue">Rock</button>
+              <button id="paper" class="red">Paper</button>
+              <button id="scissors" class="yellow">Scissors</button>
+            </div>
+            <!--Display player and computer choices-->
+            <div id="playerChoice"></div>
+            <div id="computerChoice"></div>
+            <div id="result"></div>
+             
+            <!-- Hard reset -->
+            <button id="reset" onclick="">Reset</button>
+        </div>
+        </main>
     </main>
-    <footer>footer</footer>
+    <footer>footer </footer>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
