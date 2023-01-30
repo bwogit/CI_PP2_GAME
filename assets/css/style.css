@@ -114,5 +114,37 @@ header {
     color: red;
     font-weight: bold;
 }
-  
- 
+#choices {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.blue {
+    border-color: blue;
+    color: blue;
+}
+.blue:focus,
+.blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+.red {
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.red:focus,
+.red:hover {
+    background-color: rgb(139, 0, 0);
+    color: white;
+}
+.yellow {
+  border-color: green;
+  color: green;
+}
+
+.yellow:focus,
+.red:hover {
+  background-color: green;
+  color: white;
+}
