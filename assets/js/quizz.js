@@ -49,11 +49,15 @@ const rpsQuestions = [
 ]
 
 function runQuizz() {
-// store the HTML output in 
+// store the HTML output
 let htmlOutput =[]
 
-//loop through each questions
-rpsQuestions.forEach()
+//loop through each index (question) and the question number in the array
+rpsQuestions.forEach((index,questionNumber)=>{
+    //storing answers
+    let answers =[];
+    
+} )
 
 }
 
