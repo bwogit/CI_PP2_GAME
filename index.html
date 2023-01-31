@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rock Paper Scissors, Games, Quizz">
     <meta name="keywords" content="Guessing games, Chance, Quizz">
+    <!--favicons here-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="assets/images/site.webmanifest">
+
+    <!--link to css-->
 
     <link rel="stylesheet " href="assets/css/style.css " type="text/css" />
     <title>Games | Rock Paper Scissors</title>
@@ -34,20 +37,27 @@
                 <!--Player wins it is a win, computer wins it is a loss-->
               <p>Player: <span id="wins">0</span></p>
               <p>Computer: <span id="losses">0</span></p>
+              
             </div>
+            <br>
+            <br>
+            <br>
             <p>Play against the computer by clicking one of these buttons</p>
             <div id="choices">
               <button id="rock" class="blue">Rock</button>
               <button id="paper" class="red">Paper</button>
               <button id="scissors" class="yellow">Scissors</button>
             </div>
+            <br>
+            <br>
+            <br>
             <!--Display player and computer choices-->
             <div id="playerChoice"></div>
             <div id="computerChoice"></div>
             <div id="result"></div>
              
             <!-- Hard reset -->
-            <button id="reset" onclick="">Reset</button>
+            <button id="reset" onclick="resetGame()">Reset</button>
         </div>
     </main>
     <br>
