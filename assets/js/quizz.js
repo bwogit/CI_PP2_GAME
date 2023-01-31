@@ -1,36 +1,38 @@
 function runQuizz() {
-    // store the HTML output
-    let htmlOutput =[]
+    // store the HTML output in variable htmlOutput
+    let htmlOutput =[];
     
     //loop through each index (question) and the question number in the array
-    rpsQuestions.forEach ((index,questionNumber)=> {
-    //storing all the answers
-    let answers =[];
+    rpsQuestions.forEach (
+        (index,questionNumber)=> {
+    //storing all the answers into an array called choices
+    let choices =[];
     
     // for each answer in the array build a button
-    for(letter in index.answers){
+    for(letter in index.choices){
     
         // ...add an HTML radio button
-        answers.push(
+        choices.push(
           `<label>
             <input type="radio" name="question${questionNumber}" value="${letter}">
             ${letter} :
-            ${index.answers[letter]}
+            ${index.choices[letter]}
           </label>`
         );
       }    
-    
-    
     // add this question and its answers to the output
     htmlOutput.push (
-    `<div class="question"> ${currentQuestion.question} </div>
-    <div class="answers"> ${answers.join('')} </div>`
+    `<div class="question"> ${index.question} </div>
+    <div class="answers"> ${choices.join('')} </div>`
     );
-    
-    });
-    quizzArea.innerHTML = htmlOutput.join('');
     }
-    
+);
+quizzArea.innerHTML = htmlOutput.join('');
+}
+
+function checkResults() {
+
+}
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
 let resultArea = document.getElementById("results");
@@ -79,13 +81,8 @@ const rpsQuestions = [
     ],
         correctAnswer: "260 BCE" 
     }
-]
-
-function checkResults() {
-
-}
-
+];
 runQuizz();
 
 // dispaly results when click submit
-submitButton.addEventListener("click", checkResults)
+submitButton.addEventListener("click", checkResults);
