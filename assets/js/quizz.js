@@ -31,7 +31,10 @@ quizzArea.innerHTML = htmlOutput.join('');
 }
 
 function checkResults() {
+// harvest all choices from the quizz
+let answersContainers = quizzArea.querySelectorAll("choices");
 
+//
 }
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
