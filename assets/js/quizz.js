@@ -34,7 +34,8 @@ function checkResults() {
 // harvest all choices from the quizz
 let answersContainers = quizzArea.querySelectorAll("choices");
 
-//
+//count corect answers
+let numCorrect =0;
 }
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
