@@ -53,11 +53,31 @@ function runQuizz() {
 let htmlOutput =[]
 
 //loop through each index (question) and the question number in the array
-rpsQuestions.forEach((index,questionNumber)=>{
-    //storing answers
-    let answers =[];
-    
-} )
+rpsQuestions.forEach ((index,questionNumber)=> {
+//storing all the answers
+let answers =[];
+
+// for each answer in the array build a button
+for(letter in index.answers){
+
+    // ...add an HTML radio button
+    answers.push(
+      `<label>
+        <input type="radio" name="question${questionNumber}" value="${letter}">
+        ${letter} :
+        ${index.answers[letter]}
+      </label>`
+    );
+  }    
+
+
+// add this question and its answers to the output
+output.push (
+`<div class="question"> ${currentQuestion.question} </div>
+<div class="answers"> ${answers.join('')} </div>`
+);
+
+});
 
 }
 
