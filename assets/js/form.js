@@ -8,7 +8,7 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   // Use the emailjs.sendForm method to send the form data as an email
-  emailjs.sendForm('your_email_service', 'your_template_id', this)
+  emailjs.sendForm('service_0386yf2', 'template_q79aals', this)
     // If the email was successfully sent, log a success message to the console
     .then(function (response) {
       console.log('SUCCESS!', response.status, response.text);
