@@ -30,9 +30,11 @@ function runQuizz() {
 quizzArea.innerHTML = htmlOutput.join('');
 }
 
+
 function checkResults() {
+
 // harvest all possible choices from the quizz
-let choicesContainers = quizzArea.querySelectorAll("choices");
+let choicesContainers = quizzArea.querySelectorAll(".answers");
 
 //count corect answers
 let ansCorrect = 0;
@@ -52,11 +54,17 @@ if(userAnswer === index.correctAnswer){
     // increment correct answers
     ansCorrect++;
     //display green font
-    choicesContainers[questionNumber].style.color ="green"}
+    choicesContainers[questionNumber].style.color ="green"
+}
 else {choicesContainers[questionNumber].style.color ="red"} 
     
-})
+}
+)
+// Display totalnumber of  correct answers
+resultArea.innerHTML = `${ansCorrect} out of ${rpsQuestions.length}`;
 };
+
+
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
 let resultArea = document.getElementById("results");
