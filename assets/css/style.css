@@ -92,8 +92,8 @@ header {
     border: 1px solid black;
     text-align: center;
     width: 400px;
-    height: 500px;
-    margin: 0 auto;
+    height: auto;
+    /* margin: 0 auto; */
     border: 1px solid black;
     
   }
@@ -157,6 +157,7 @@ header {
 
 /*-----------------------------------------------------quizz section-----------------------------------------------------------------*/
 .question{
-	font-weight: 600;}
-  .answers label{
+	font-weight: 600;
+  display: block;}
+.answers label{
     display: block;}  

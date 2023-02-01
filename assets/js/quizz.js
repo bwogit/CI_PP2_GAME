@@ -1,11 +1,13 @@
 /**
  * shuffleQuestions randomly shuffles the questions shuffledQuestions
  */
+//declaring variable shuffledQuestions
 let shuffledQuestions;
 
 function shuffleQuestions(){
     shuffledQuestions = rpsQuestions.sort(() => Math.random() - 0.5);
   }
+  //display quick on page
 function runQuizz() {
     // store the HTML output in variable htmlOutput
     let htmlOutput =[];
@@ -29,6 +31,7 @@ function runQuizz() {
         );
       }    
     // add this question and its answers to the output
+
     htmlOutput.push (
     `<div class="question"> ${index.question} </div>
     <div class="answers"> ${choices.join('')} </div>`
@@ -121,36 +124,36 @@ const rpsQuestions = [
         },
         correctAnswer: "d" 
     },
-    // {
-    //     question: "What is it called in french?",
-    //     choices:{
-    //         a:"un, deux, trois",
-    //         b:"s'il te plait",
-    //         c:"pret a porter",
-    //         d:"chi fou mi"
-    //     },
-    //     correctAnswer: "d" 
-    // },
-    // {
-    //     question: "What is it called in french?",
-    //     choices:{
-    //         a:"un, deux, trois",
-    //         b:"s'il te plait",
-    //         c:"pret a porter",
-    //         d:"chi fou mi"
-    //     },
-    //     correctAnswer: "d" 
-    // },
-    // {
-    //     question: "in which dynasty was the game created?",
-    //     choices:{
-    //         a:"han",
-    //         b:"ming",
-    //         c:"satay",
-    //         d:"feng shui"
-    //     },
-    //     correctAnswer: "a" 
-    // },
+    {
+        question: "What is it called in french?",
+        choices:{
+            a:"un, deux, trois",
+            b:"s'il te plait",
+            c:"pret a porter",
+            d:"chi fou mi"
+        },
+        correctAnswer: "d" 
+    },
+    {
+        question: "What is it called in french?",
+        choices:{
+            a:"un, deux, trois",
+            b:"s'il te plait",
+            c:"pret a porter",
+            d:"chi fou mi"
+        },
+        correctAnswer: "d" 
+    },
+    {
+        question: "in which dynasty was the game created?",
+        choices:{
+            a:"han",
+            b:"ming",
+            c:"satay",
+            d:"feng shui"
+        },
+        correctAnswer: "a" 
+    },
 
 ];
 shuffleQuestions();
