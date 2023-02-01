@@ -120,7 +120,38 @@ const rpsQuestions = [
             d:"260 BCE"
         },
         correctAnswer: "d" 
-    }
+    },
+    // {
+    //     question: "What is it called in french?",
+    //     choices:{
+    //         a:"un, deux, trois",
+    //         b:"s'il te plait",
+    //         c:"pret a porter",
+    //         d:"chi fou mi"
+    //     },
+    //     correctAnswer: "d" 
+    // },
+    // {
+    //     question: "What is it called in french?",
+    //     choices:{
+    //         a:"un, deux, trois",
+    //         b:"s'il te plait",
+    //         c:"pret a porter",
+    //         d:"chi fou mi"
+    //     },
+    //     correctAnswer: "d" 
+    // },
+    // {
+    //     question: "in which dynasty was the game created?",
+    //     choices:{
+    //         a:"han",
+    //         b:"ming",
+    //         c:"satay",
+    //         d:"feng shui"
+    //     },
+    //     correctAnswer: "a" 
+    // },
+
 ];
 shuffleQuestions();
 runQuizz();
