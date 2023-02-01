@@ -31,12 +31,32 @@ quizzArea.innerHTML = htmlOutput.join('');
 }
 
 function checkResults() {
-// harvest all choices from the quizz
-let answersContainers = quizzArea.querySelectorAll("choices");
+// harvest all possible choices from the quizz
+let choicesContainers = quizzArea.querySelectorAll("choices");
 
 //count corect answers
-let numCorrect =0;
-}
+let ansCorrect = 0;
+
+//loop trhough each question and check right answrer
+
+rpsQuestions.forEach( (index, questionNumber) => {
+// find selected answer
+const choicesContainer = choicesContainers[questionNumber];
+const selector = `input[name=question${questionNumber}]:checked`;
+// preparing for incomplete user input
+const userAnswer = (choicesContainer.querySelector(selector) || {}).value;
+
+//evaluate the answers
+//is the answer is correct
+if(userAnswer === index.correctAnswer){
+    // increment correct answers
+    ansCorrect++;
+    //display green font
+    choicesContainers[questionNumber].style.color ="green"}
+else {choicesContainers[questionNumber].style.color ="red"} 
+    
+})
+};
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
 let resultArea = document.getElementById("results");
