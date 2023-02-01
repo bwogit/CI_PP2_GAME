@@ -1,3 +1,11 @@
+/**
+ * shuffleQuestions randomly shuffles the questions shuffledQuestions
+ */
+let shuffledQuestions;
+
+function shuffleQuestions(){
+    shuffledQuestions = rpsQuestions.sort(() => Math.random() - 0.5);
+  }
 function runQuizz() {
     // store the HTML output in variable htmlOutput
     let htmlOutput =[];
@@ -114,6 +122,7 @@ const rpsQuestions = [
         correctAnswer: "d" 
     }
 ];
+shuffleQuestions();
 runQuizz();
 
 // dispaly results when click submit
