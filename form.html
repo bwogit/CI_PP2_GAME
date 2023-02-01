@@ -28,11 +28,27 @@
     <main>
         <p>If you have any comments or observation please fill out our form</p>
         <form id="form">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div>
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+          
     </main>
     <br>
     <footer>
