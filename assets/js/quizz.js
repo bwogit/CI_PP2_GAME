@@ -75,43 +75,43 @@ let submitButton = document.getElementById("submit");
 const rpsQuestions = [
     {
         question: "Where does Rock Paper Scissors originate from?",
-        choices:[
-            "China",
-            "Belgium",
-            "Ireland",
-            "Vatican"
-        ],
-        correctAnswer: "China"
+        choices:{
+            a: "China",
+            b: "Belgium",
+            c: "Ireland",
+            d: "Vatican"
+        },
+        correctAnswer: "a"
     },
     {
         question: "By what other name is is known?",
-        choices:[
-            "Mirabelle",
-            "Patton",
-            "Bush",
-            "Ro-Sham-Bo"
-    ],
-        correctAnswer: "Ro-Sham-Bo"
+        choices:{
+           a:"Mirabelle",
+            b: "Patton",
+            c:"Bush",
+            d:"Ro-Sham-Bo"},
+    
+        correctAnswer: "d"   
     },
     {
         question: "How many Players does it require?",
-        choices:[
-            "1",
-            "2",
-            "3",
-            "more than 5"
-    ],
-        correctAnswer: "2" 
+        choices:{
+            a:"1",
+            b:"2",
+            c:"3",
+            d:"more than 5"
+        },
+        correctAnswer: "b" 
     },
     {
-        question: "what was the game invented?",
-        choices:[
-            "1913",
-            "1789",
-            "2001",
-            "260 BCE"
-    ],
-        correctAnswer: "260 BCE" 
+        question: "when was the game invented?",
+        choices:{
+            a:"1913",
+            b:"1789",
+            c:"2001",
+            d:"260 BCE"
+        },
+        correctAnswer: "d" 
     }
 ];
 runQuizz();
