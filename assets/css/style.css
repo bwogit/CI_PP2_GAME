@@ -3,26 +3,28 @@
 /* setting up padding border margin to 0 for the whole site */
 
 /* below code is common to all pages same header and footer elements*/
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+
 body{
     font-family: "Lexend", sans-serif;
     font-weight: 300;
-    color: #3f3f3f
+    color: #3f3f3f; 
+    display: flex;
+    flex-direction: column;
+    /* margin: 0; */
+   
 }
 
 header {
     background-color: lightgray;
     padding: 20px;
+    height: 70px;
+    
   }
   
   header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
   }
   
   header h1 {
@@ -37,6 +39,7 @@ header {
   
   header li {
     margin: 0 10px;
+    padding: 20px;
   }
   
   .current_page {
@@ -45,20 +48,17 @@ header {
     font-size: larger;
     
  }
-  
-  footer {
-    position: absolute;
-    background-color: lightgray;
-    padding: 20px;
+    footer {
+    bottom: 5px;
+    height: 100px;
     text-align: center;
-    bottom: 0;
     width: 100%;
-    height: 50px;
-    
+    background-color: lightgray;
+  /* padding: 20px; */
   }
 
   footer ul {
-    text-align: center;
+    
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -69,13 +69,15 @@ header {
   footer li {
     margin: 0 2%;
     display: inline;
+    
   }
 
   footer i{
     font-size: 140%;
     margin: 2%;
     padding: 4%;
-    color: black
+    color: black;
+    text-align: center;
  } 
 
  footer i:hover {
@@ -84,20 +86,22 @@ header {
 
   /* Below is the Game area*/
   
+  main{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  }
   #game_area {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 50%;
+    align-self: center;
     height: 500px;
-    /* margin: 0 auto; */
     border: 1px solid black;
-    overflow:scroll;
-    overflow-x:hidden;
-    
   }
 
   .title{
