@@ -92,9 +92,11 @@ header {
     border: 1px solid black;
     text-align: center;
     width: 400px;
-    height: auto;
+    height: 500px;
     /* margin: 0 auto; */
     border: 1px solid black;
+    overflow:scroll;
+    overflow-x:hidden;
     
   }
 
