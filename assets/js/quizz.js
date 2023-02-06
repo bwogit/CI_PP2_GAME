@@ -129,36 +129,36 @@ const rpsQuestions = [
         },
         correctAnswer: "d" 
     },
-    // {
-    //     question: "What is it called in french?",
-    //     choices:{
-    //         a:"un, deux, trois",
-    //         b:"s'il te plait",
-    //         c:"pret a porter",
-    //         d:"chi fou mi"
-    //     },
-    //     correctAnswer: "d" 
-    // },
-    // {
-    //     question: "What is it called in Spanish?",
-    //     choices:{
-    //         a:"piedra, papel, tijeras",
-    //         b:"Corto de luces",
-    //         c:"Mata el gusanillo",
-    //         d:"uno, dos, tres"
-    //     },
-    //     correctAnswer: "a" 
-    // },
-    // {
-    //     question: "in which dynasty was the game created?",
-    //     choices:{
-    //         a:"han",
-    //         b:"ming",
-    //         c:"satay",
-    //         d:"feng shui"
-    //     },
-    //     correctAnswer: "a" 
-    // },
+    {
+        question: "What is it called in french?",
+        choices:{
+            a:"un, deux, trois",
+            b:"s'il te plait",
+            c:"pret a porter",
+            d:"chi fou mi"
+        },
+        correctAnswer: "d" 
+    },
+    {
+        question: "What is it called in Spanish?",
+        choices:{
+            a:"piedra, papel, tijeras",
+            b:"Corto de luces",
+            c:"Mata el gusanillo",
+            d:"uno, dos, tres"
+        },
+        correctAnswer: "a" 
+    },
+    {
+        question: "in which dynasty was the game created?",
+        choices:{
+            a:"han",
+            b:"ming",
+            c:"satay",
+            d:"feng shui"
+        },
+        correctAnswer: "a" 
+    },
 
 ];
 shuffleQuestions();
