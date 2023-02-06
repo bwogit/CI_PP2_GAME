@@ -1,11 +1,12 @@
 // JavaScript for the game logic
 
-        // Variables for tracking wins, losses
+        /* Variables for tracking wins, losses */
         let wins = 0;
         let losses = 0;
        
   
-        // Add event listeners for the buttons
+        /* Add event listeners for the buttons */
+        
         document.getElementById("rock").addEventListener("click", function() {
           play("rock");
         });

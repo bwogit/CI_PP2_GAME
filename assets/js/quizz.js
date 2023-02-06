@@ -1,4 +1,5 @@
-//create the list of questions
+/* create the list of questions var rpsQuestions is an array of questions and answers*/
+
 
 const rpsQuestions = [
     {
@@ -135,7 +136,7 @@ const rpsQuestions = [
 /**
  * shuffleQuestions randomly shuffles the questions shuffledQuestions
  */
-//declaring variable shuffledQuestions
+
 let shuffledQuestions;
 
 function shuffleQuestions(){
@@ -146,11 +147,6 @@ function runQuizz() {
     // store the HTML output in variable htmlOutput
     let htmlOutput =[];
     
-    //loop through each index (question) and the question number in the array. 
-    
-    // rpsQuestions.forEach (
-    //     (index,questionNumber)=> {
-        
     //loop through the first 4 ietms in the array
     for (let i = 0; i < 4; i++) {
         let index = rpsQuestions[i];
@@ -178,10 +174,12 @@ function runQuizz() {
     <div class="answers"> ${choices.join('')} </div>`
     );
     }
-// );
 quizzArea.innerHTML = htmlOutput.join('');
 }
 
+/*
+function will check the results for each displayed quuestion 
+*/
 
 function checkResults() {
 
@@ -192,8 +190,6 @@ let choicesContainers = quizzArea.querySelectorAll(".answers");
 let ansCorrect = 0;
 
 //loop trhough each question and check right answrer
-
-// rpsQuestions.forEach( (index, questionNumber) => {
     for (let i = 0; i < 4; i++) {
         let index = rpsQuestions[i];
         let questionNumber = i; 
@@ -204,7 +200,6 @@ const selector = `input[name=question${questionNumber}]:checked`;
 const userAnswer = (choicesContainer.querySelector(selector) || {}).value;
 
 //evaluate the answers
-//is the answer is correct
 if(userAnswer === index.correctAnswer){
     // increment correct answers
     ansCorrect++;
@@ -214,18 +209,14 @@ if(userAnswer === index.correctAnswer){
 else {choicesContainers[questionNumber].style.color ="red"} 
     
 }
-// )
 // Display totalnumber of  correct answers
-// resultArea.innerHTML = `${ansCorrect} out of ${rpsQuestions.length}`;
 resultArea.innerHTML = `${ansCorrect} out of 4`; 
 };
-
 
 // select quizz element from HTML document and save them in variables
 let quizzArea = document.getElementById("quizz");
 let resultArea = document.getElementById("results");
 let submitButton = document.getElementById("submit");
-
 
 shuffleQuestions();
 runQuizz();
