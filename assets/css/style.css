@@ -229,7 +229,9 @@ input[type=checkbox]{
     display: block;
     color: #3f3f3f;
        }
-  
+  .question{
+    font-size: smaller;
+  }
 }
 @media only screen and (max-width: 600px) {
   .error-code {
