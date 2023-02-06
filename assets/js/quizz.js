@@ -155,7 +155,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-        question: "in which dynasty was the game created?",
+        question: "During which dynasty was the game created?",
         choices:{
             a:"han",
             b:"ming",
@@ -164,7 +164,66 @@ const rpsQuestions = [
         },
         correctAnswer: "a" 
     },
-
+    {
+    question: "What is the most common throw?",
+        choices:{
+            a:"rock",
+            b:"paper",
+            c:"scissors",
+            d:"Impossible to answer"
+        },
+        correctAnswer: "a" 
+    },
+    {
+        question: "How many scenarios are there for RPS?",
+            choices:{
+                a:"10 million",
+                b:"9",
+                c:"3",
+                d:"27"
+            },
+            correctAnswer: "d" 
+    },
+    {
+        question: "Which country plays RPS the most?",
+            choices:{
+                a:"Afganistan",
+                b:"Japan",
+                c:"Hinduistan",
+                d:"Turkmenistan"
+            },
+            correctAnswer: "b" 
+    },
+    {
+        question: "Which country forbids RPS?",
+            choices:{
+                a:"Lituania",
+                b:"Finland",
+                c:"New Zeland",
+                d:"none of the above"
+            },
+            correctAnswer: "d" 
+    },
+    {
+        question: "Who is the world best RPS player?",
+            choices:{
+                a:"Michael Jordan",
+                b:"Audrey Kelly",
+                c:"Ken Watson",
+                d:"Simon Doyle"
+            },
+            correctAnswer: "c" 
+    },
+    {
+        question: "where is RPS championship held?",
+            choices:{
+                a:"Mozambique",
+                b:"Italy",
+                c:"Canada",
+                d:"Turkey"
+            },
+            correctAnswer: "c" 
+    }
 ];
 shuffleQuestions();
 runQuizz();
