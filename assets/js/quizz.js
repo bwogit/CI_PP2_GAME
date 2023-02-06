@@ -7,14 +7,19 @@ let shuffledQuestions;
 function shuffleQuestions(){
     shuffledQuestions = rpsQuestions.sort(() => Math.random() - 0.5);
   }
-  //display quick on page
+  //display quizz on page
 function runQuizz() {
     // store the HTML output in variable htmlOutput
     let htmlOutput =[];
     
     //loop through each index (question) and the question number in the array
-    rpsQuestions.forEach (
-        (index,questionNumber)=> {
+    
+    // rpsQuestions.forEach (
+    //     (index,questionNumber)=> {
+    for (let i = 0; i < 4; i++) {
+        let index = rpsQuestions[i];
+        let questionNumber = i;
+
     //storing all the answers into an array called choices
     let choices =[];
     
@@ -30,14 +35,14 @@ function runQuizz() {
           </label>`
         );
       }    
-    // add this question and its answers to the output
+    // Join  questions and  answers to the output
 
     htmlOutput.push (
     `<div class="question"> ${index.question} </div>
     <div class="answers"> ${choices.join('')} </div>`
     );
     }
-);
+// );
 quizzArea.innerHTML = htmlOutput.join('');
 }
 
@@ -135,14 +140,14 @@ const rpsQuestions = [
     //     correctAnswer: "d" 
     // },
     // {
-    //     question: "What is it called in french?",
+    //     question: "What is it called in Spanish?",
     //     choices:{
-    //         a:"un, deux, trois",
-    //         b:"s'il te plait",
-    //         c:"pret a porter",
-    //         d:"chi fou mi"
+    //         a:"piedra, papel, tijeras",
+    //         b:"Corto de luces",
+    //         c:"Mata el gusanillo",
+    //         d:"uno, dos, tres"
     //     },
-    //     correctAnswer: "d" 
+    //     correctAnswer: "a" 
     // },
     // {
     //     question: "in which dynasty was the game created?",
