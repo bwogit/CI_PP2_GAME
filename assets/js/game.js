@@ -17,9 +17,14 @@
         });
         document.getElementById("reset").addEventListener("click", resetGame) ;
 
-        // Function for playing the game
+        /**
+        * - Function for playing the game takes and argument 'playerChoice', 
+            which is the player's selected option.
+          - Compare choices and determine whether there is a winner or a tie
+          - Sends an alert if computer wins 3 times then resets the game
+        */
         function play(playerChoice) {
-          // Generate computer choice
+          
           let computerChoice = Math.random();
           if (computerChoice < 0.34) {
             computerChoice = "rock";
@@ -30,7 +35,6 @@
           }
           document.getElementById("computerChoice").innerHTML = "Computer Choice: " + computerChoice;
           
-          // Compare choices and determine winner
           if (playerChoice === computerChoice) {
             // Tie
             document.getElementById("result").innerHTML = `You both chose ${playerChoice} It's a Tie!`;
@@ -47,20 +51,20 @@
             losses++;
             document.getElementById("result").innerHTML =computerChoice+" beats "+ playerChoice + " : Loooser!";
           }
-  
-          // Update wins and losses counter
+          
           document.getElementById("wins").innerHTML = wins;
           document.getElementById("losses").innerHTML = losses;
-  
-          // Check for 3 wrong moves
+          
           if (losses === 3) {
-            // endGame();
             resetGame();
             alert("Game over!");
             
           }
 
-         // function endGame
+         /**
+          * function endGame
+          */
+          
          function endGame() {
           document.getElementById("playerChoice").innerHTML = "";
           document.getElementById("computerChoice").innerHTML = "";
@@ -70,7 +74,11 @@
           // losses = 0;
         }
         }
-        // function reset game
+
+
+        /**
+          * Resets wins, losses, playerChoice, computerChoice, results values to pre game conditions
+          */
         function resetGame() {
           wins = 0;
           losses = 0;
