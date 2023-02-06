@@ -18,6 +18,8 @@ header {
     background-color: lightgray;
     padding: 20px;
     height: 70px;
+    /* display: flex; */
+    justify-content: space-between;
     
   }
   
@@ -42,6 +44,16 @@ header {
     margin: 0 10px;
     padding: 20px;
   }
+
+  /* hamburger menu hack*/
+input[type=checkbox]{
+  display: none;
+} 
+
+.hamburger {
+  display: none;
+  user-select: none;
+}
   
   .current_page {
    
@@ -191,14 +203,29 @@ header {
 
 /*-----------------------------------Media Querries---------------------------------------------*/
 /*header*/
-@media (max-width: 446px) {
-  header nav {
+@media (max-width: 476px) {
+  header ul {
+    display: none;
+  }
+  header {
+    height: 175px;
+  }
+
+  header nav label {
+    display: block;
+    cursor: pointer;
+  }
+  header nav input[type="checkbox"] {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+  }
+  header nav input[type="checkbox"]:checked + ul {
+    display: block;
     text-align: center;
   }
-  header nav ul {
-    /* display: inline; */
-    justify-content: center
-  }
+  
 }
 @media only screen and (max-width: 600px) {
   .error-code {
