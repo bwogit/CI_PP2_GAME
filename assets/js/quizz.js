@@ -12,10 +12,11 @@ function runQuizz() {
     // store the HTML output in variable htmlOutput
     let htmlOutput =[];
     
-    //loop through each index (question) and the question number in the array
+    //loop through each index (question) and the question number in the array. 
     
     // rpsQuestions.forEach (
     //     (index,questionNumber)=> {
+        //loop through the first 4 ietms in the array
     for (let i = 0; i < 4; i++) {
         let index = rpsQuestions[i];
         let questionNumber = i;
@@ -57,7 +58,10 @@ let ansCorrect = 0;
 
 //loop trhough each question and check right answrer
 
-rpsQuestions.forEach( (index, questionNumber) => {
+// rpsQuestions.forEach( (index, questionNumber) => {
+    for (let i = 0; i < 4; i++) {
+        let index = rpsQuestions[i];
+        let questionNumber = i; 
 // find selected answer
 const choicesContainer = choicesContainers[questionNumber];
 const selector = `input[name=question${questionNumber}]:checked`;
@@ -75,9 +79,10 @@ if(userAnswer === index.correctAnswer){
 else {choicesContainers[questionNumber].style.color ="red"} 
     
 }
-)
+// )
 // Display totalnumber of  correct answers
-resultArea.innerHTML = `${ansCorrect} out of ${rpsQuestions.length}`;
+// resultArea.innerHTML = `${ansCorrect} out of ${rpsQuestions.length}`;
+resultArea.innerHTML = `${ansCorrect} out of 4`; 
 };
 
 
