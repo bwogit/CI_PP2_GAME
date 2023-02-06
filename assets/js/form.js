@@ -18,8 +18,12 @@ form.addEventListener("submit", function (event) {
     // If the email was successfully sent, log a success message to the console
     .then(function (response) {
       console.log('SUCCESS!', response.status, response.text);
+      //reset form after submit
+      form.reset();
     // If there was an error sending the email, log an error message to the console
     }, function (error) {
       console.log('FAILED...', error);
     });
 });
+
+
