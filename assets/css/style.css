@@ -23,6 +23,7 @@ header {
   
   header nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -189,6 +190,16 @@ header {
 }
 
 /*-----------------------------------Media Querries---------------------------------------------*/
+/*header*/
+@media (max-width: 446px) {
+  header nav {
+    text-align: center;
+  }
+  header nav ul {
+    /* display: inline; */
+    justify-content: center
+  }
+}
 @media only screen and (max-width: 600px) {
   .error-code {
     font-size: 100px;
