@@ -1,7 +1,10 @@
-
+/* 
+* Sends an email to the site owner on click submit
+* Insttructions and script taken from the official EmailJS tutorial 
+* https://www.emailjs.com/docs/tutorial/creating-contact-form/
+*/
 
 (function() {
-  // https://dashboard.emailjs.com/admin/account
   emailjs.init('rUyj3ASnTOPeeYh8M');
 })();
 
@@ -26,4 +29,15 @@ form.addEventListener("submit", function (event) {
     });
 });
 
-
+/**
+ * Display a thank you image on the screen once the contact form has been submitted
+ */
+function formSubmittedMessage() {
+  let message = `
+          <div class="image-other-screens">
+              <img src="assets/images/thank_you.jpg" alt="Open envelope with thank you card">
+          </div>
+          <a href="index.html" class="button my-3">Go back</a>
+          `;
+  document.getElementById("game_area").innerHTML = message;
+}
