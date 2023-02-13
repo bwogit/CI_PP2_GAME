@@ -107,8 +107,10 @@ input[type=checkbox]{
   }
   #quote {
     display: flex;
+    color: rgb(37, 24, 209);
     text-align: center;
-    border:1px solid black ;
+    align-self:center ;
+    font-style: italic;
     width: 50%;
     height: auto;
   }
