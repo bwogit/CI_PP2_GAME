@@ -49,5 +49,5 @@ fetch("https://api.quotable.io/random")
 .then(data => {
     let quote = data.content;
     let author = data.author;
-    document.getElementById("quote").innerHTML = `"${quote}" - ${author}`;
+    document.getElementById("quote").innerHTML = `Quote of the day - "${quote}" - ${author}`;
 });
