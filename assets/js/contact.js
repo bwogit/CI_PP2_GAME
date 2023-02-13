@@ -1,3 +1,12 @@
+// Call the quote of the day API
+fetch("https://api.quotable.io/random")
+.then(response => response.json())
+.then(data => {
+    let quote = data.content;
+    let author = data.author;
+    document.getElementById("quote").innerHTML = `uote of the day - "${quote}" - ${author}`;
+});
+
 /* 
 * Sends an email to the site owner on click submit
 * Insttructions and script taken from the official EmailJS tutorial 
@@ -40,14 +49,6 @@ function formSubmittedMessage() {
           </div>
           <a href="contact.html" class="button my-3">Back to Game</a>
           `;
-  document.getElementById("game_area").innerHTML = message;
+  document.getElementById("form_area").innerHTML = message;
 }
 
-// Call the quote of the day API
-fetch("https://api.quotable.io/random")
-.then(response => response.json())
-.then(data => {
-    let quote = data.content;
-    let author = data.author;
-    document.getElementById("quote").innerHTML = `Quote of the day - "${quote}" - ${author}`;
-});

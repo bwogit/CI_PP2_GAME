@@ -129,6 +129,7 @@ input[type=checkbox]{
     bottom: 20px;
     align-self: center;
     /* right: 20px; */
+    background-color: lightblue;
   }
 
   .title{
@@ -212,9 +213,50 @@ input[type=checkbox]{
   font-size: 16px;
   border-radius: 5px;
   border: none;
+  
 }     
+/*-------------------------------------Contact Area-----------------------------------------------*/
+#form_area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    height: 500px;
+    border: 1px solid black;
+}
 
- /*-----------------------------------------------------404 Section-----------------------------------------------------------------*/   
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ /*------------------------------------404 Section-----------------------------------------------------------------*/   
  .error-container {
   display: flex;
   flex-direction: column;
@@ -236,6 +278,21 @@ input[type=checkbox]{
 
 /*-----------------------------------Media Querries---------------------------------------------*/
 /*header*/
+@media (max-width: 1024px) {
+  #game_area{font-size: 14px;
+  }
+  #game_area button {
+    width: 30%;
+    font-size: 12px;
+    }  
+
+}
+@media only screen and (max-width: 750px) {
+  #game_area button {
+    width: 46%;
+    font-size: 12px;
+    }  
+}
 @media (max-width: 476px) {
   header ul {
     display: none;
@@ -271,6 +328,9 @@ input[type=checkbox]{
   .error-code {
     font-size: 100px;
   }
+  #quote{
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
 
@@ -280,12 +340,15 @@ input[type=checkbox]{
   }
   
   #game_area button {
-  width: 30%;
-  font-size: 12px;
+  width: 47%;
+  font-size: 7px;
   }  
 }
 
 @media (max-width: 390px) {
+  #quote{
+    width: none;
+  }
 
   #reset {
     position: relative;
@@ -293,12 +356,14 @@ input[type=checkbox]{
   }
   
   #game_area button {
-  width: 30%;
-  font-size: 12px;
+  width: 45%;
+  font-size: 6px;
   }  
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
+  #game_area{font-size: 13px;
+  }
 
   #reset {
     position: relative;
@@ -306,7 +371,7 @@ input[type=checkbox]{
   }
   
   #game_area button {
-  width: 30%;
-  font-size: 7px;
+  width: 45%;
+  font-size: 5px;
   }  
 }
