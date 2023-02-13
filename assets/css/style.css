@@ -153,7 +153,7 @@ input[type=checkbox]{
 }
 
 #losses {
-    color: red;
+    color: #cd2026;
     font-weight: bold;
 }
 #choices {
@@ -164,7 +164,8 @@ input[type=checkbox]{
 }
 .blue {
     border-color: blue;
-    color: blue;
+    /* color: blue; */
+    border: 1px;
 }
 .blue:focus,
 .blue:hover {
@@ -173,7 +174,7 @@ input[type=checkbox]{
 }
 .red {
     border-color: rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
 }
 
 .red:focus,
@@ -183,7 +184,7 @@ input[type=checkbox]{
 }
 .green {
   border-color: green;
-  color: green;
+  /* color: green; */
 }
 
 .green:focus,
