@@ -116,6 +116,12 @@ input[type=checkbox]{
     height: 500px;
     border: 1px solid black;
   }
+  #reset {
+    position: absolute;
+    bottom: 20px;
+    align-self: center;
+    /* right: 20px; */
+  }
 
   .title{
     text-align: center;
