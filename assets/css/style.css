@@ -46,6 +46,7 @@ header {
 
   header a {
     color: blue;
+    text-decoration: none;
   }
 
   /* hamburger menu hack*/
