@@ -23,6 +23,7 @@ form.addEventListener("submit", function (event) {
       console.log('SUCCESS!', response.status, response.text);
       //reset form after submit
       form.reset();
+      formSubmittedMessage();
     // If there was an error sending the email, log an error message to the console
     }, function (error) {
       console.log('FAILED...', error);
@@ -37,7 +38,7 @@ function formSubmittedMessage() {
           <div class="image-other-screens">
               <img src="assets/images/thank_you.jpg" alt="Open envelope with thank you card">
           </div>
-          <a href="index.html" class="button my-3">Go back</a>
+          <a href="contact.html" class="button my-3">Back to Game</a>
           `;
   document.getElementById("game_area").innerHTML = message;
 }
