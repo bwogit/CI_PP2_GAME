@@ -105,6 +105,13 @@ input[type=checkbox]{
   margin: 0;
   height: 100vh;
   }
+  #quote {
+    display: flex;
+    text-align: center;
+    border:1px solid black ;
+    width: 50%;
+    height: auto;
+  }
   #game_area {
     display: flex;
     flex-direction: column;
