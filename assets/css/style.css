@@ -95,7 +95,7 @@ input[type=checkbox]{
     color: red;
  }
 
-  /* Below is the Game area*/
+  /*---------------------------- Below is the Game area-----------------------------------------*/
   
   main{
   display: flex;
@@ -123,6 +123,7 @@ input[type=checkbox]{
     height: 500px;
     border: 1px solid black;
   }
+
   #reset {
     position: absolute;
     bottom: 20px;
@@ -165,7 +166,7 @@ input[type=checkbox]{
 }
 .blue:focus,
 .blue:hover {
-    background-color: darkblue;
+    background-color: blue;
     color: white;
 }
 .red {
@@ -175,16 +176,16 @@ input[type=checkbox]{
 
 .red:focus,
 .red:hover {
-    background-color: rgb(139, 0, 0);
+    background-color: rgb(255, 0, 0);
     color: white;
 }
-.yellow {
+.green {
   border-color: green;
   color: green;
 }
 
-.yellow:focus,
-.red:hover {
+.green:focus,
+.green:hover {
   background-color: green;
   color: white;
 }
@@ -194,7 +195,24 @@ input[type=checkbox]{
 	font-weight: 600;
   display: block;}
 .answers label{
-    display: block;}  
+    display: block;}
+ /* Style the buttons container */
+
+ .q_buttons {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+/* Style the buttons */
+#game_area button {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}     
 
  /*-----------------------------------------------------404 Section-----------------------------------------------------------------*/   
  .error-container {
@@ -247,9 +265,48 @@ input[type=checkbox]{
   .question{
     font-size: smaller;
   }
+  
 }
 @media only screen and (max-width: 600px) {
   .error-code {
     font-size: 100px;
   }
+}
+@media (max-width: 500px) {
+
+  #reset {
+    position: relative;
+    bottom: -30px;
+  }
+  
+  #game_area button {
+  width: 30%;
+  font-size: 12px;
+  }  
+}
+
+@media (max-width: 390px) {
+
+  #reset {
+    position: relative;
+    bottom: -20px;
+  }
+  
+  #game_area button {
+  width: 30%;
+  font-size: 12px;
+  }  
+}
+
+@media (max-width: 300px) {
+
+  #reset {
+    position: relative;
+    bottom: -30px;
+  }
+  
+  #game_area button {
+  width: 30%;
+  font-size: 7px;
+  }  
 }
