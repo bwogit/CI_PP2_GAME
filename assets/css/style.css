@@ -128,7 +128,6 @@ input[type=checkbox]{
     position: absolute;
     bottom: 20px;
     align-self: center;
-    /* right: 20px; */
     background-color: lightblue;
   }
 
