@@ -282,8 +282,15 @@ input[type="submit"] {
 /*-----------------------------------Media Querries---------------------------------------------*/
 /*header*/
 @media (max-width: 1600px) {
+  main{
+    height: 78vh;
+  }
   #reset{
-    bottom: 150px;
+    bottom: 260px;
+  }
+  
+  #form_area{
+    width: 75%;
   }
 
 }
