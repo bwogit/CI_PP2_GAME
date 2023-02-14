@@ -237,6 +237,7 @@ form {
   padding: 10px;
 }
 
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -252,7 +253,7 @@ input[type="submit"] {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -280,6 +281,45 @@ input[type="submit"] {
 
 /*-----------------------------------Media Querries---------------------------------------------*/
 /*header*/
+@media (max-width: 1600px) {
+  #reset{
+    bottom: 150px;
+  }
+
+}
+@media (max-width: 1280px) {
+  #reset{
+    bottom: 70px;
+  }
+
+}
+@media (max-width: 768px) {
+  #reset{
+    bottom: 150px;
+  }
+
+}
+@media (max-width: 320px) {
+  #game_area {
+    width: 99%;
+  }
+  #game_area button {
+    width: 30%;
+    font-size: 15px;
+  }
+  #reset{
+    bottom: -70px;
+  }
+  main h2 {
+    font-size: smaller;
+    text-align: center;
+  }
+ #form_area{
+  width: 99%;
+  
+
+ }
+}
 @media (max-width: 1024px) {
   #game_area{font-size: 14px;
   }
@@ -312,7 +352,7 @@ input[type="submit"] {
   }
   
   #game_area button {
-  width: 47%;
+  width: 30%;
   font-size: 7px;
   }  
 }
@@ -347,7 +387,7 @@ input[type="submit"] {
   }
   
 }
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   #reset {
     position: relative;
     bottom: -20px;
@@ -357,9 +397,9 @@ input[type="submit"] {
   width: 45%;
   font-size: 6px;
   }  
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   #game_area{font-size: 13px;
   }
 
@@ -372,4 +412,4 @@ input[type="submit"] {
   width: 45%;
   font-size: 5px;
   }  
-}
+} */
