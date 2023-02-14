@@ -295,12 +295,15 @@ input[type="submit"] {
 }
 @media (max-width: 768px) {
   #reset{
-    bottom: 150px;
+    bottom: 250px;
   }
   main{
     height: 80vh;
   }
   #form_area {
+    width: 92%;
+  }
+  #game_area {
     width: 92%;
   }
   #quote{
