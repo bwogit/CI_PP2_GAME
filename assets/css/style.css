@@ -297,11 +297,21 @@ input[type="submit"] {
   #reset{
     bottom: 150px;
   }
+  main{
+    height: 80vh;
+  }
+  #form_area {
+    width: 92%;
+  }
+  #quote{
+    width: 100%;
+  }
 
 }
 @media (max-width: 320px) {
   main{
     font-size:xx-small;
+    height: 105vh;
   }
   #quote{
     padding-top: 5px;
