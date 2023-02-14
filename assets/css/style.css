@@ -300,23 +300,35 @@ input[type="submit"] {
 
 }
 @media (max-width: 320px) {
+  main{
+    font-size:xx-small;
+  }
+  #quote{
+    padding-top: 5px;
+    font-size:x-small;
+  }
   #game_area {
     width: 99%;
+   
   }
   #game_area button {
-    width: 30%;
-    font-size: 15px;
+    width: 35%;
+    font-size: 10px;
+    
   }
+  /* label{
+    font-size: smaller;
+  } */
   #reset{
-    bottom: -70px;
+    bottom: -130px;
   }
   main h2 {
-    font-size: smaller;
+    /* font-size: smaller; */
     text-align: center;
   }
  #form_area{
   width: 99%;
-  
+
 
  }
 }
