@@ -54,7 +54,9 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 ### Site Owner Goals
 
 - Create a Website which offers 2 games which are fun and engaging
+- Increase your general knowledge by reading the quote of the day
 - Create a simple design let the games talk the talk
+- Provide feedback when playing game or quizz 
 - Create a simple navigation around website
 - Provide fully responsive and accessible website
 
@@ -74,3 +76,18 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 - A responsive website so the user can play the game on any device
 - Links and functions that work as expected
 - An easy way to contact the developer and leave feedback
+
+## User Stories
+
+### Site User
+
+1. I want to easily understand the rules of the game
+2. I want to be able to see my score
+3. I want to be able to see the computers score
+4. I want to be able to see who is winning each play
+5. I want to be able to reset the game mid game
+6. I want to be able to see choose my deck of questions
+7. I want to see my which question i got right or wrong
+8. I want to be able to play the game on desktop, tablet and mobile devices
+9. I want to be able to get in touch with the developer
+10. I want confirmation that my message has been sent
