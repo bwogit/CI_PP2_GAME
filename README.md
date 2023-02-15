@@ -106,3 +106,9 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 The colour scheme across the screens was kept simple and consistent as to allow accessibility. 
 - Game - Win is green and a loss(computer wins) is red
 - Quizz - right answer is green, wrong anser is red
+
+### Fonts
+
+Google Fonts were implemented on the website. Lexend with sans-serif fallback was used across all pages as they are dyslexia friendly. 
+
+
