@@ -41,3 +41,20 @@ Table of Content
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+Create an interactive and user-friendly rendition of an all time favorite among enthusiasts.
+
+### User Goals
+
+- Relax and play an old school game with that is fun and engaging
+- You think you know all about RPS? then why don't you test yourself with the 4 question mini quizz about RPS
+
+### Site Owner Goals
+
+- Create a Website which offers 2 games which are fun and engaging
+- Create a simple design let the games talk the talk
+- Create a simple navigation around website
+- Provide fully responsive and accessible website
+
