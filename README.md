@@ -101,3 +101,8 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 15. I want the user to land on 404 error page if they navigate to url that does not exist
 16. I want user to be able to contact me and provide their feedback
 
+### Colour Scheme
+
+The colour scheme across the screens was kept simple and consistent as to allow accessibility. 
+- Game - Win is green and a loss(computer wins) is red
+- Quizz - right answer is green, wrong anser is red
