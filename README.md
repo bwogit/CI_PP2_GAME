@@ -138,3 +138,33 @@ The website structure was designed for easy learning and navigation. Each page o
 <details><summary>404</summary>
 <img src="assets/wireframes/w_404.png">
 </details>
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks, Libraries & Tools
+
+- [Balsamiq](https://balsamiq.com/) to create the wireframes
+- [EmailJS](https://www.emailjs.com) sending email from the contact form
+- [Favicon.io](https://favicon.io) for site favicon
+- [Font Awesome](https://fontawesome.com/) - each page of the site uses fontawesome icons
+- [GitHub](https://github.com/) to store project code on the cloud
+- [Google Fonts](https://fonts.google.com/)
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools) for code debugging and check site responsiveness
+- [Am I Responsive](http://ami.responsivedesign.is/) for multi-device mock-up.
+- [WC3 Validator](https://validator.w3.org/), [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/), [JShint](https://jshint.com/), [Wave Validator](https://wave.webaim.org/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/) were all used to validate the website.
+
+## Features
+
+The website has 3 webpages consisting of  distinct features described below
+
+### Existing Features
+#### Feature 1 Navigation Bar
+##### Description
+Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game, Quiz and Contact. The navigation bar is responsive down to hamburger menu on mobile devices.
+#### header
