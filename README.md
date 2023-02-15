@@ -58,3 +58,19 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 - Create a simple navigation around website
 - Provide fully responsive and accessible website
 
+## User Experience
+
+### Target Audience
+
+- The game is for RPS nuts!
+- The game can be played by anyone who likes Rock, Paper, Scissors (RPS)
+- Anyone who wants to learn facts about their favourite game
+
+### User Requirements and Expectations
+
+- Accessibility
+- Simple navigation
+- Simple presentation of content that makes logical sense
+- A responsive website so the user can play the game on any device
+- Links and functions that work as expected
+- An easy way to contact the developer and leave feedback
