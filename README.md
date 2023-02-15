@@ -91,3 +91,13 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 8. I want to be able to play the game on desktop, tablet and mobile devices
 9. I want to be able to get in touch with the developer
 10. I want confirmation that my message has been sent
+
+### Site Owner
+
+11. I want user to easily understand the games
+12. I want the user to be able to challenge themselves
+13. I want the user to play and learn at the same time
+14. I want my site to be fully responsive
+15. I want the user to land on 404 error page if they navigate to url that does not exist
+16. I want user to be able to contact me and provide their feedback
+
