@@ -111,4 +111,30 @@ The colour scheme across the screens was kept simple and consistent as to allow 
 
 Google Fonts were implemented on the website. Lexend with sans-serif fallback was used across all pages as they are dyslexia friendly. 
 
+### Structure
 
+The website structure was designed for easy learning and navigation. Each page of the website has the same container structure which maintains a certain harmony.
+
+- The website consist of 3 pages which all have the same header and footer elements and quote of the day
+  - header has the title and navigation
+  - Main page - quote of the day and computer and player scores
+    
+  - Quizz page - Consist of 4 question MCQ taken at random out of a list of 13 (for this version of the game). Each question has 4 possible answers (a, b, c, d) upon submitting the answesr each question answerd right is lit grenn, and each wrong answer is red. The game doesn't provide the right answer. The player has the possibility to select one of the 3 other solutions and re-submit. The purpose of the game is to learn! 
+  
+- The contact page with contact form which enables users to contact to the developer and provide their feedback
+- A separate 404 error page
+
+### Wireframes
+
+<details><summary>Main page - Game</summary>
+<img src="assets/wireframes/w_game.png">
+</details>
+<details><summary>quizz</summary>
+<img src="assets/wireframes/w_quizz.png">
+</details>
+<details><summary>Contact</summary>
+<img src="assets/wireframes/w_contact.png">
+</details>
+<details><summary>404</summary>
+<img src="assets/wireframes/w_404.png">
+</details>
