@@ -47,7 +47,7 @@ function play(playerChoice) {
     } else {
       // Player loses
         losses++;
-        document.getElementById("result").innerHTML =computerChoice+" beats "+ playerChoice + " : Loooser!";
+        document.getElementById("result").innerHTML =computerChoice+" beats "+ playerChoice + " : Computer wins!";
         }
           
         document.getElementById("wins").innerHTML = wins;

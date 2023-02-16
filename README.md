@@ -81,20 +81,20 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 
 ### Site User
 
-1. I want to easily understand the rules of the game
-2. I want to be able to see my score and computer score
+1. I want to know the rules of the games
+2. I want to be able to see the player and computer scores
 3. I want to be able to navigate the site intuitively
 4. I want to be able to see who is winning each play
 5. I want to be able to reset the game mid game
 6. I want to be able to see choose my deck of questions
-7. I want to see my which question i got right or wrong
+7. I want to see my which question I got right or wrong
 8. I want to be able to play the game on desktop, tablet and mobile devices
 9. I want to be able to get in touch with the developer
 10. I want confirmation that my message has been sent
 
 ### Site Owner
 
-11. I want user to easily keep in touch with social medi within the site
+11. I want user to easily access social media within the site
 12. I want the user to be able to challenge themselves
 13. I want the user to play and learn at the same time
 14. I want my site to be fully responsive
@@ -333,6 +333,25 @@ Google Lighthouse in Google Chrome Developer Tools was the tool used to test the
 <details><summary>contact.html</summary><img src="assets/docs/validation/lighthouse_contact.jpg"> </details>
 <details><summary>404.html</summary><img src="assets/docs/validation/lighthouse_404.jpg">
 </details>
+
+## Testing
+
+### Performing tests on various devices
+
+I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below viewports 
+
+- Large desktops (1600 x 992)
+- Laptop screens (1280 x 802)
+- Tablets (768 x 1024)
+- Small phones (320 x 480)
+
+
+### Browser compatibility
+
+- Testing has been carried out on the following browsers:
+  - Googe Chrome Version 110.0.5481.100 (Official Build) (64-bit)
+  - Microsoft Edge Version 110.0.1587.46 (Official build) (64-bit)
+  - Firefox Browser 109.0.1 (64-bit)
 
 
 
