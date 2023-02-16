@@ -232,3 +232,15 @@ fetch("https://api.quotable.io/random")
     let author = data.author;
     document.getElementById("quote").innerHTML = `Quote of the day - "${quote}" - ${author}`;
 });
+/**
+ * Display the rules of the Qizz game onclick
+ */
+function gameHelp() {
+    let message = `
+           
+                <img src="assets/images/quizz_rules.jpg" alt="Rules of the rock paper scissors game">
+           
+            <a href="quizz.html" class="button">Back to Quizz</a>
+            `;
+    document.getElementById("game_area").innerHTML = message;
+  }
