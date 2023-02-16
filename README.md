@@ -220,3 +220,24 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 <details><summary>See feature</summary>
 <img src="/workspace/CI_PP2_GAME/assets/features/features_reset.jpg">
 </details>
+
+### Rock Paper Scissors game
+
+- interactive game : user plays agains the computer by selecting either rock, paper or scissors. For each play the game displays the user choice and the computer choice and the outcome of that hand. The score is updated after each play. 
+
+- user stories covered 2, 4, 5
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_game.jpg">
+</details>
+
+### Quizz 
+
+- interactive quiz of 4 questions taken randomly out of a pack of questions so that regular users can come back (when they hit submit questions answered correctly will be in green otherwise they will be red. The quiz stops when the computes wins 3 times 
+
+- User stories covered 2, 4, 12
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_quizz.jpg">
+</details>
+
+
