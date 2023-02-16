@@ -81,7 +81,7 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 
 ### Site User
 
-1. I want to know the rules of the games
+1. I want help on how how to play the game
 2. I want to be able to see the player and computer scores
 3. I want to be able to navigate the site intuitively
 4. I want to be able to see who is winning each play
@@ -352,6 +352,46 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
   - Googe Chrome Version 110.0.5481.100 (Official Build) (64-bit)
   - Microsoft Edge Version 110.0.1587.46 (Official build) (64-bit)
   - Firefox Browser 109.0.1 (64-bit)
+
+### Testing user stories
+
+1. I want help on how how to play the game
+
+| **Feature**       | **Action**        | **Expected Result**                  | **Actual Result** |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+| help Icon | Click on the icon | instructions pops up | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story1.JPG">
+<img src="assets/docs/stories/story1b.JPG">
+<img src="assets/docs/stories/story1c.JPG">
+</details>
+
+2. I want to be able to see the player and computer scores
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| Score area | Green for player and Red for computer  | scores are incremented red for computer green for player | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story2.JPG">
+</details>
+
+3. I want to be able to navigate the site intuitively
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| Nav bar in Header | same vavigation bar fro the 3 pages  | Very intuitive and the user knows where the links are supposed to be | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/features/features_header.jpg">
+</details>
+
+4.	I want to be able to see who is winning each play
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| Result div| Game takes players play and Computers and computes results  | displays the result of the hand | Works as expected |
 
 
 
