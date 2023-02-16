@@ -97,7 +97,7 @@ input[type=checkbox]{
     font-size: 140%;
     margin: 2%;
     padding: 4%;
-    color: rgb(112, 12, 226);
+    color:blue;
     text-align: center;
  } 
 
@@ -125,6 +125,7 @@ input[type=checkbox]{
     height: auto;
   }
   #game_area {
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -132,19 +133,19 @@ input[type=checkbox]{
     align-self: center;
     height: 500px;
     border: 2px solid black;
-    background-color: rgb(246, 235, 235);
+    background-color: white;
   }
 
   #reset {
-    /* position: absolute; */
-    bottom: 20px;
+    position: absolute;
+    bottom: 40px;
     align-self: center;
     /* background-color: lightblue; */
   }
 
   .title{
     text-align: center;
-    color: white;
+    color: rgb(7, 241, 7);
 }  
   
   #counter {
@@ -155,7 +156,7 @@ input[type=checkbox]{
   }
 
 #wins {
-    color: green;
+    color: rgb(7, 241, 7);
     font-weight: bold;
 }
 
@@ -293,9 +294,9 @@ input[type="submit"] {
   main{
     height: 88vh;
   }
-  #reset{
+  /* #reset{
     bottom: 260px;
-  }
+  } */
   
   #form_area{
     width: 60%;
@@ -303,15 +304,15 @@ input[type="submit"] {
 
 }
 @media (max-width: 1280px) {
-  #reset{
+  /* #reset{
     bottom: 70px;
-  }
+  } */
 
 }
 @media (max-width: 768px) {
-  #reset{
+  /* #reset{
     bottom: 250px;
-  }
+  } */
   main{
     height: 80vh;
   }
@@ -348,9 +349,9 @@ input[type="submit"] {
   /* label{
     font-size: smaller;
   } */
-  #reset{
+  /* #reset{
     bottom: -130px;
-  }
+  } */
   main h2 {
     /* font-size: smaller; */
     text-align: center;
@@ -388,10 +389,10 @@ input[type="submit"] {
 }
 @media (max-width: 500px) {
 
-  #reset {
+  /* #reset {
     position: relative;
     bottom: -30px;
-  }
+  } */
   
   #game_area button {
   width: 30%;
