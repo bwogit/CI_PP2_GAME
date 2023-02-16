@@ -10,8 +10,13 @@ body{
     color: #3f3f3f; 
     display: flex;
     flex-direction: column;
+    background-image: url("/assets/images/web_background.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
    
-}
+
 
 header {
     background-color: lightgray;
@@ -112,7 +117,7 @@ input[type=checkbox]{
   }
   #quote {
     display: flex;
-    color: rgb(37, 24, 209);
+    color: white;
     text-align: center;
     align-self:center ;
     font-style: italic;
@@ -139,6 +144,7 @@ input[type=checkbox]{
 
   .title{
     text-align: center;
+    color: white;
 }  
   
   #counter {
@@ -317,6 +323,7 @@ input[type="submit"] {
   }
   #quote{
     width: 100%;
+    color:white;
   }
 
 }
@@ -347,6 +354,7 @@ input[type="submit"] {
   main h2 {
     /* font-size: smaller; */
     text-align: center;
+    color: white;
   }
  #form_area{
   width: 99%;

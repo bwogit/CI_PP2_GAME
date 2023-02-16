@@ -94,7 +94,7 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 
 ### Site Owner
 
-11. I want user to easily understand the games
+11. I want user to easily keep in touch with social medi within the site
 12. I want the user to be able to challenge themselves
 13. I want the user to play and learn at the same time
 14. I want my site to be fully responsive
