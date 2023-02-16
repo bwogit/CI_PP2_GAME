@@ -168,7 +168,7 @@ Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game,
 - user story covered (3, 14, 8)
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_header.jpg">
+<img src="assets/docs/features/features_header.jpg">
 </details>
 
 ### help Modal
@@ -176,10 +176,10 @@ Game instructions which pops up when the help icon is clicked
 - user story covered 
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_games_rules.jpg">
+<img src="assets/docs/features/features_games_rules.jpg">
 </details>
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_quizz_rules.jpg">
+<img src="assets/docs/features/features_quizz_rules.jpg">
 </details>
 
 #### Quote of the day
@@ -188,7 +188,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - user story covered 13
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_quote.jpg">
+<img src="assets/docs/features/features_quote.jpg">
 </details>
 
 ### Footer 
@@ -197,7 +197,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - user story covered 11
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_footer.jpg">
+<img src="assets/docs/features/features_footer.jpg">
 </details>
 
 ### scores
@@ -206,10 +206,10 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - User story covered 2, 4
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_score.jpg">
+<img src="assets/docs/features/features_score.jpg">
 </details>
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_score_b.jpg">
+<img src="assets/docs/features/features_score_b.jpg">
 </details>
 
 ### Reset 
@@ -218,7 +218,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - user story covered 5
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_reset.jpg">
+<img src="assets/docs/features/features_reset.jpg">
 </details>
 
 ### Rock Paper Scissors game
@@ -227,7 +227,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 - user stories covered 2, 4, 5
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_game.jpg">
+<img src="assets/docs/features/features_game.jpg">
 </details>
 
 ### Quizz 
@@ -237,7 +237,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - User stories covered 2, 4, 12
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_quizz.jpg">
+<img src="assets/docs/features/features_quizz.jpg">
 </details>
 
 ### Shuffle button
@@ -247,7 +247,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - User Stories covered 12, 13, 6, 7
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_shuffle.jpg">
+<img src="assets/docs/features/features_shuffle.jpg">
 </details>
 
 ### Page 404
@@ -257,7 +257,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - User story covered 15
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_404.jpg">
+<img src="assets/docs/features/features_404.jpg">
 </details>
 
 ### Contact Form
@@ -267,7 +267,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - User story covered 9, 16
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_form.jpg">
+<img src="assets/docs/features/features_form.jpg">
 </details>
 
 ### Contact form confirmation
@@ -277,5 +277,11 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 - user story covered 10
 
 <details><summary>See feature</summary>
-<img src="/workspace/CI_PP2_GAME/assets/features/features_thank_you.jpg">
+<img src="assets/docs/features/features_thank_you.jpg">
 </details>
+
+## Validation
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
