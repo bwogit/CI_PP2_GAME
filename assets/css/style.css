@@ -15,8 +15,6 @@ body{
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
   }
-   
-
 
 header {
     background-color: lightgray;
@@ -24,7 +22,6 @@ header {
     height: 70px;
     justify-content: space-between;
     color: blue;
-    
   }
   
   header nav {
@@ -170,7 +167,6 @@ input[type=checkbox]{
     position: absolute;
     bottom: 40px;
     align-self: center;
-    /* background-color: lightblue; */
   }
 
   .title{
@@ -182,7 +178,6 @@ input[type=checkbox]{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    
   }
 
 #wins {
@@ -301,7 +296,6 @@ input[type="submit"] {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  /* background-color: lightblue; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -338,9 +332,6 @@ input[type="submit"] {
   main{
     height: 88vh;
   }
-  /* #reset{
-    bottom: 260px;
-  } */
   
   #form_area{
     width: 60%;
@@ -348,15 +339,9 @@ input[type="submit"] {
 
 }
 @media (max-width: 1280px) {
-  /* #reset{
-    bottom: 70px;
-  } */
 
 }
 @media (max-width: 768px) {
-  /* #reset{
-    bottom: 250px;
-  } */
   main{
     height: 80vh;
   }
@@ -390,14 +375,7 @@ input[type="submit"] {
     font-size: 10px;
     
   }
-  /* label{
-    font-size: smaller;
-  } */
-  /* #reset{
-    bottom: -130px;
-  } */
   main h2 {
-    /* font-size: smaller; */
     text-align: center;
     color: white;
   }
@@ -432,11 +410,6 @@ input[type="submit"] {
   }
 }
 @media (max-width: 500px) {
-
-  /* #reset {
-    position: relative;
-    bottom: -30px;
-  } */
   
   #game_area button {
   width: 30%;
@@ -472,31 +445,4 @@ input[type="submit"] {
   .question{
     font-size: smaller;
   }
-  
 }
-/* @media (max-width: 390px) {
-  #reset {
-    position: relative;
-    bottom: -20px;
-  }
-  
-  #game_area button {
-  width: 45%;
-  font-size: 6px;
-  }  
-} */
-
-/* @media (max-width: 320px) {
-  #game_area{font-size: 13px;
-  }
-
-  #reset {
-    position: relative;
-    bottom: -30px;
-  }
-  
-  #game_area button {
-  width: 45%;
-  font-size: 5px;
-  }  
-} */

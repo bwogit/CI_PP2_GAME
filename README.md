@@ -284,4 +284,32 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 ### HTML Validation
 
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
+- The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
+
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html) - No errors found
+
+- quizz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Fquizz.html) - No errors
+
+- contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Fcontact.html) - No errors
+
+
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+When validating all website, it passes with no errors.
+
+- site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No errors
+
+### JS validation
+
+JSHint JS Validation Service was used to validate the Javascript files. No significant issues were found.
+
+<details><summary>game.js</summary>
+<img src="assets/docs/validation/js_contact.jpg">
+</details>
+<details><summary>game.js</summary>
+<img src="assets/docs/validation/js_game.jpg">
+</details>
+<details><summary>game.js</summary>
+<img src="assets/docs/validation/js_quizz.jpg">
+</details>
