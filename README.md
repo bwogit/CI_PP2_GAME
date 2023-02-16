@@ -82,8 +82,8 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 ### Site User
 
 1. I want to easily understand the rules of the game
-2. I want to be able to see my score
-3. I want to be able to see the computers score
+2. I want to be able to see my score and computer score
+3. I want to be able to navigate the site intuitively
 4. I want to be able to see who is winning each play
 5. I want to be able to reset the game mid game
 6. I want to be able to see choose my deck of questions
