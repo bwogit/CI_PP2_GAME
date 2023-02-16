@@ -393,5 +393,95 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
 | -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
 | Result div| Game takes players play and Computers and computes results  | displays the result of the hand | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story4.JPG">
+</details>
 
+5.	I want to be able to reset the game mid game
 
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| Reset buton| Click with the mouse on the button  | Resets scores to zero  | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story5.JPG">
+</details>
+
+6.	I want to be able to choose my deck of questions
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| shuffle buton| Click with the mouse on the button  | random selection of 4 questions from the pot  | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story6.JPG">
+</details>
+
+7.	I want to see my which question I got right or wrong
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|submit buton| Click with the mouse on the button  | Green = correct, red = wrong | Works as expected |
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story7.JPG">
+</details>
+
+8.	I want to be able to play the game on desktop, tablet and mobile devices
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|fully responsive site| design with responsivenesss in mind  | fully responsive | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story8.JPG">
+</details>
+
+9.	I want to be able to get in touch with the developer
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|form page| Contact form with EmailJS capabilities  | Receive mail confirmation | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story9.JPG">
+</details>
+
+10. I want confirmation that my message has been sent
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|form page| fill the form and click on submit  | Receive confirmation | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/features/features_thank_you.jpg">
+</details>
+
+11.	I want users to easily access social media within the site
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|footer| click on the social media icon  | open in a new tab social media page | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story11.JPG">
+</details>
+
+12.	I want the user to be able to challenge themselves
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+| shuffle buton| Click with the mouse on the button  | regular users will not get same questions | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story6.JPG">
+</details>
+
+13.	I want the user to play and learn at the same time
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|Quote of the day| cick on a page link  | new quote is displayed | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story13.JPG">
+</details>
