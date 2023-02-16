@@ -135,6 +135,12 @@ input[type=checkbox]{
     border: 2px solid black;
     background-color: white;
   }
+  #result {
+    position: absolute;
+    bottom: 100px;
+    align-self: center;
+  }
+  
 
   #reset {
     position: absolute;
