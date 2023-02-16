@@ -240,4 +240,42 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 <img src="/workspace/CI_PP2_GAME/assets/features/features_quizz.jpg">
 </details>
 
+### Shuffle button
 
+- Allows the regular user to take the quiz with different set of questions in no predetermined order increasing the interactivity of the site. you can play as much as you want and never find the same set of quations in the same oredr twice.
+
+- User Stories covered 12, 13, 6, 7
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_shuffle.jpg">
+</details>
+
+### Page 404
+
+- Lets the user know that there is an error with their request. Perhaps they mistyped the URL, the page is temporarily unavailable, or the page no longer exists. This feature will recognize the mistake and guide them back to the home page of the site.
+
+- User story covered 15
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_404.jpg">
+</details>
+
+### Contact Form
+
+- Contact forms makes it simple for the user to contact the owner or developper if they need support or more information about the services offered in the website. 
+
+- User story covered 9, 16
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_form.jpg">
+</details>
+
+### Contact form confirmation
+
+-  It is an essential segment of email marketing. A confirmation message, displays after a user fills out the form. it is there to inform the user that their message has been sent successfully, and when they’ll receive a response from you.
+
+- user story covered 10
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_thank_you.jpg">
+</details>
