@@ -51,7 +51,7 @@ function formSubmittedMessage() {
           <div class="image-other-screens">
               <img src="assets/images/thank_you.jpg" alt="Open envelope with thank you card">
           </div>
-          <a href="contact.html" class="button my-3">Back to Game</a>
+          <a href="contact.html">Back to Game</a>
           `;
   document.getElementById("form_area").innerHTML = message;
 }

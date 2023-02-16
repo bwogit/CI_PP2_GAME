@@ -163,8 +163,24 @@ The website structure was designed for easy learning and navigation. Each page o
 
 The website has 3 webpages consisting of  distinct features described below
 
-### Existing Features
-#### Feature 1 Navigation Bar
-##### Description
+### Navigation Bar
 Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game, Quiz and Contact. The navigation bar is responsive down to hamburger menu on mobile devices.
-#### header
+- user story covered (3, 14, 8)
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_header.jpg">
+</details>
+
+### help
+Game instructions which pops up when the help icon is clicked 
+- user story covered 
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_games_rules.jpg">
+</details>
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_quizz_rules.jpg">
+</details>
+
+#### Quote of the day
+
+
