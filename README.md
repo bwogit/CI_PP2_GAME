@@ -171,9 +171,10 @@ Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game,
 <img src="/workspace/CI_PP2_GAME/assets/features/features_header.jpg">
 </details>
 
-### help
+### help Modal
 Game instructions which pops up when the help icon is clicked 
 - user story covered 
+
 <details><summary>See feature</summary>
 <img src="/workspace/CI_PP2_GAME/assets/features/features_games_rules.jpg">
 </details>
@@ -182,5 +183,40 @@ Game instructions which pops up when the help icon is clicked
 </details>
 
 #### Quote of the day
+Never a bad moment to learn something. Quotes from famous people. Everytime the page is refreshed a new quote is published. Present on all pages
 
+- user story covered 13
 
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_quote.jpg">
+</details>
+
+### Footer 
+- Present on all pages. Provide a natural intuitive space to access socila media directly. link   presents are Instagran, Facebook, Youtube and EventBrite.
+
+- user story covered 11
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_footer.jpg">
+</details>
+
+### scores
+- Colour coded scores. Every time the computer wins the computer score is displayed in red, when the player winds the hand the player's score is diaplyed in green. 
+
+- User story covered 2, 4
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_score.jpg">
+</details>
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_score_b.jpg">
+</details>
+
+### Reset 
+- Sometimes the game is frustrating, the player is not in the right framme of ming or sometimes you are on a loosing streak? Don't worry you are able to rset the gae and start afresh! Good luck!
+
+- user story covered 5
+
+<details><summary>See feature</summary>
+<img src="/workspace/CI_PP2_GAME/assets/features/features_reset.jpg">
+</details>
