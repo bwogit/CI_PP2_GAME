@@ -313,3 +313,26 @@ JSHint JS Validation Service was used to validate the Javascript files. No signi
 <details><summary>game.js</summary>
 <img src="assets/docs/validation/js_quizz.jpg">
 </details>
+
+### Accessibility
+
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards.
+All site pass with no errors whatsoever!
+
+- index.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/index.html) - No errors
+- quizz.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/quizz.html) - No errors
+- contact.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/contact.html)
+- 404.html[results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/404.html) 
+
+### Performance
+Google Lighthouse in Google Chrome Developer Tools was the tool used to test the website perforances.
+
+<details><summary>index.html</summary><img src="assets/docs/validation/lighthouse_index.jpg">
+</details>
+<details><summary>quizz.html</summary><img src="assets/docs/validation/lighthouse_quizz.jpg"></details>
+<details><summary>contact.html</summary><img src="assets/docs/validation/lighthouse_contact.jpg"> </details>
+<details><summary>404.html</summary><img src="assets/docs/validation/lighthouse_404.jpg">
+</details>
+
+
+
