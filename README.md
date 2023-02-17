@@ -286,7 +286,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 - The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
 
-- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html) - No errors found
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html) - No errors
 
 - quizz.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Fquizz.html) - No errors
 
