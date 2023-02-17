@@ -1,5 +1,5 @@
 # RPS Corner
-RPS Corner is an esquisse, for fans of rock paper scissors, who just want to relax and indulge in their favourite game, while learning something new about the game and increase their general knowledge at the same time. Everything on this site is about Rock paper scissors. You are only a click away from your favourite social media link!!!!
+RPS (Rock Paper Scissors) Corner is an esquisse, for fans of rock paper scissors, who just want to relax and indulge in their favourite game, while learning something new about the game and increase their general knowledge at the same time. Everything on this site is about Rock paper scissors. You are only a click away from your favourite social media link!!!!
 <br>
 View the live site [here](https://bwogit.github.io/CI_PP2_GAME/index.html)
 <br><br>
@@ -37,7 +37,6 @@ Table of Content
     - [Performing tests on various devices](#performing-tests-on-various-devices)
     - [Browser compatibility](#browser-compatibility)
     - [Testing user stories](#testing-user-stories)
-  - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Thanks](#thanks)
@@ -165,15 +164,15 @@ The website has 3 webpages consisting of  distinct features described below
 
 ### Navigation Bar
 Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game, Quiz and Contact. The navigation bar is responsive down to hamburger menu on mobile devices.
-- user story covered (3, 14, 8)
+- user story covered 3, 14, 8
 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_header.jpg">
 </details>
 
-### help Modal
-Game instructions which pops up when the help icon is clicked 
-- user story covered 
+### help
+Game instructions which pops up when the help icon is clicked on
+- user story covered 1
 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_games_rules.jpg">
@@ -564,7 +563,7 @@ The website was deployed using GitHub Pages by following these steps:
 - [hamburgermenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work. the code is reused on the 3 pages.
 - [helpIcon](https://stackoverflow.com/questions/29102646/creating-a-help-icon-using-css) inspired by these tutorials
 - [game](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d) this site inspired the RPS games. 
-- [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I was loosely inpired by this.  
+- [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I loosely inpired by this design I modified it to make it my own added shuffle functions and the restriction of only displaying 4 questions at the time.  
 - [design] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) standars web design that i was inspired by. Header footer and main content in the middle.
 
 

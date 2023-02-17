@@ -89,7 +89,6 @@ fetch("https://api.quotable.io/random")
 function gameHelp() {
   let message = `
           <img src="assets/images/rps_rules.jpg" alt="Rules of the rock paper scissors game">
-         
           <a href="index.html" class="button">Back to Game</a>
           `;
   document.getElementById("game_area").innerHTML = message;

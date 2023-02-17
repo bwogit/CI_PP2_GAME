@@ -272,14 +272,6 @@ input[type=checkbox]{
   align-self: center;
 }
 
-#form_area button {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -288,7 +280,6 @@ form {
   height: 80%;
   padding: 10px;
 }
-
 
 input[type="text"],
 input[type="email"],
