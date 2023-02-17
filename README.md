@@ -301,17 +301,22 @@ When validating all website, it passes with no errors.
 
 - site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No errors
 
-### JS validation
+### JS Validation
 
-JSHint JS Validation Service was used to validate the Javascript files. No significant issues were found.
+JSHint JS Validation Service was used to validate the Javascript files. Some Issues were found:
 
-<details><summary>game.js</summary>
+- For contact.js JSHINT reported one undefined varialed "emailjs". The issue arises because emailjs is a library which is loaded in the html page with src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" is is not loaded in the js file.
+<details><summary>Contact</summary>
 <img src="assets/docs/validation/js_contact.jpg">
 </details>
-<details><summary>game.js</summary>
+
+- For game.js JSHINT reported one unused variable "gameHelp". This issue occurs because gameHelp() is a function which is not called in the code. It is only called onclick. 
+<details><summary>Game</summary>
 <img src="assets/docs/validation/js_game.jpg">
 </details>
-<details><summary>game.js</summary>
+
+- For quizz.js JSHINT reported one unused variable "gameHelp". This issue occurs because gameHelp() is a function which is not called in the code. It is only called onclick. 
+<details><summary>Quizz</summary>
 <img src="assets/docs/validation/js_quizz.jpg">
 </details>
 

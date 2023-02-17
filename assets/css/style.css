@@ -51,7 +51,7 @@ header {
     text-decoration: none;
   }
 
-  /* hamburger menu hack*/
+ /* ---hamburger menu hack------*/
 input[type=checkbox]{
   display: none;
 } 
@@ -161,7 +161,6 @@ input[type=checkbox]{
     bottom: 100px;
     align-self: center;
   }
-  
 
   #reset {
     position: absolute;

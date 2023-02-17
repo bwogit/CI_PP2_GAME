@@ -155,7 +155,7 @@ function runQuizz() {
 
     //storing all the answers into an array called choices
     let choices =[];
-    
+    let letter;
     // for each answer in the array build a button
     for(letter in index.choices){
     
@@ -205,7 +205,7 @@ if(userAnswer === index.correctAnswer){
     // increment correct answers
     ansCorrect++;
     //display green font
-    choicesContainers[questionNumber].style.color ="green"
+    choicesContainers[questionNumber].style.color ="green";
 }
 else {choicesContainers[questionNumber].style.color ="red"} 
     

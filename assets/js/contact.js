@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 /*
-* Call the quote of the day API
+* Call the quote of the day API compliment of https://api.quotable.io/random
 */
 fetch("https://api.quotable.io/random")
 .then(response => response.json())
@@ -18,7 +18,6 @@ fetch("https://api.quotable.io/random")
 (function() {
   emailjs.init('rUyj3ASnTOPeeYh8M');
 })();
-
 // Get the form element from the HTML using its ID
 var form = document.getElementById("form");
 
@@ -46,9 +45,9 @@ form.addEventListener("submit", function (event) {
  */
 function formSubmittedMessage() {
   let message = `
-          // <div class="image-other-screens">
+          <div>
               <img src="assets/images/thank_you.jpg" alt="Open envelope with thank you card">
-          // </div>
+          </div>
           <a href="contact.html">Back to Game</a>
           `;
   document.getElementById("form_area").innerHTML = message;

@@ -58,20 +58,12 @@ function play(playerChoice) {
             resetGame();
             alert("Game over!");
   }
-
-/**
-* function endGame
-*/
-          
-function endGame() {
-          document.getElementById("playerChoice").innerHTML = "";
-          document.getElementById("computerChoice").innerHTML = "";
-          document.getElementById("result").innerHTML = "";
-}}
+}
 
 /**
 * Resets wins, losses, playerChoice, computerChoice, results values to pre game conditions
 */
+
 function resetGame() {
   wins = 0;
   losses = 0;
