@@ -127,16 +127,16 @@ The website structure was designed for easy learning and navigation. Each page o
 ### Wireframes
 
 <details><summary>Main page - Game</summary>
-<img src="assets/wireframes/w_game.png">
+<img src="assets/docs/wireframes/w_game.png">
 </details>
 <details><summary>quizz</summary>
-<img src="assets/wireframes/w_quizz.png">
+<img src="assets/docs/wireframes/w_quizz.png">
 </details>
 <details><summary>Contact</summary>
-<img src="assets/wireframes/w_contact.png">
+<img src="assets/docs/wireframes/w_contact.png">
 </details>
 <details><summary>404</summary>
-<img src="assets/wireframes/w_404.png">
+<img src="assets/docs/wireframes/w_404.png">
 </details>
 
 ## Technologies Used
@@ -557,6 +557,10 @@ The website was deployed using GitHub Pages by following these steps:
 
 - [EmailJS](https://www.emailjs.com/docs/tutorial/creating-contact-form) official tutorial & playground environment within EmailJS Email Templates were used to create a contact form with email being sent to desired address
 -  [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) was reviewed to change input focus color
+- [quotable](https://api.quotable.io/random) part of freecodecamp. 
+- [hamburgerMenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work.
+- [helpIcon](https://stackoverflow.com/questions/29102646/creating-a-help-icon-using-css) inspired by these tutorials
+- [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I was loosely inpired by this
 
 ## Acknowledgements
 

@@ -45,9 +45,9 @@ form.addEventListener("submit", function (event) {
  */
 function formSubmittedMessage() {
   let message = `
-          <div class="image-other-screens">
+          // <div class="image-other-screens">
               <img src="assets/images/thank_you.jpg" alt="Open envelope with thank you card">
-          </div>
+          // </div>
           <a href="contact.html">Back to Game</a>
           `;
   document.getElementById("form_area").innerHTML = message;
