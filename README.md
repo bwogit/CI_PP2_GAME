@@ -40,7 +40,7 @@ Table of Content
   - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
-  - [Acknowledgements](#acknowledgements)
+  - [Thanks](#thanks)
 
 ## Project Goals
 
@@ -75,7 +75,7 @@ Create an interactive and user-friendly rendition of an all time favorite among 
 - Simple presentation of content that makes logical sense
 - A responsive website so the user can play the game on any device
 - Links and functions that work as expected
-- An easy way to contact the developer and leave feedback
+- An easy way to contact the developer or site owner and leave feedbacks
 
 ## User Stories
 
@@ -567,5 +567,8 @@ The website was deployed using GitHub Pages by following these steps:
 - [design] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) standars web design that i was inspired by. Header footer and main content in the middle.
 
 
-## Acknowledgements
-
+## Thanks
+Above all to God who never ever abandons me.
+- To CodeInstitute and LWETB for giving me this amazing opportunity
+- To mentor Mohamed Shami for his feedback, advice, guidance and constant support.
+- to myself for I have never worked so hard and learned so much in the process.
