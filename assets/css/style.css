@@ -132,6 +132,8 @@ input[type=checkbox]{
     border: 2px solid black;
     background-color: rgba(255, 253, 251, 0.862);
   }
+
+  /*-------- Help Icon---------------------*/
   .help-icon {
     position: absolute;
     top: 0;
@@ -270,6 +272,14 @@ input[type=checkbox]{
   align-self: center;
 }
 
+#form_area button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -380,8 +390,6 @@ input[type="submit"] {
   }
  #form_area{
   width: 99%;
-
-
  }
 }
 @media (max-width: 1024px) {
@@ -399,7 +407,6 @@ input[type="submit"] {
     font-size: 12px;
     }  
 }
-
 @media only screen and (max-width: 600px) {
   .error-code {
     font-size: 100px;

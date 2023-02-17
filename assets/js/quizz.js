@@ -239,7 +239,7 @@ fetch("https://api.quotable.io/random")
 function gameHelp() {
     let message = `
             <img src="assets/images/quizz_rules.jpg" alt="Rules of the quizz game">
-            <a href="quizz.html" class="button">Back to Quizz</a>
+            <a href="quizz.html">Back to Quizz</a>
             `;
     document.getElementById("game_area").innerHTML = message;
   }

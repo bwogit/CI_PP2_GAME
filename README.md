@@ -1,5 +1,5 @@
 # RPS Corner
-RPS Corner is an esquisse ,for fans of rock paper scissors, who just want to relax and indulge in their favourite game, while learning something new about the game and increase their general knowledge at the same time. Everything on this site is about Rock paper scissors. You are only a click away from your favourite social media link!!!!
+RPS Corner is an esquisse, for fans of rock paper scissors, who just want to relax and indulge in their favourite game, while learning something new about the game and increase their general knowledge at the same time. Everything on this site is about Rock paper scissors. You are only a click away from your favourite social media link!!!!
 <br>
 View the live site [here](https://bwogit.github.io/CI_PP2_GAME/index.html)
 <br><br>
@@ -119,7 +119,7 @@ The website structure was designed for easy learning and navigation. Each page o
   - header has the title and navigation
   - Main page - quote of the day and computer and player scores
     
-  - Quizz page - Consist of 4 question MCQ taken at random out of a list of 13 (for this version of the game). Each question has 4 possible answers (a, b, c, d) upon submitting the answesr each question answerd right is lit grenn, and each wrong answer is red. The game doesn't provide the right answer. The player has the possibility to select one of the 3 other solutions and re-submit. The purpose of the game is to learn! 
+  - Quizz page - Consist of 4 question MCQ taken at random out of a list of 13 (for this version of the game). Each question has 4 possible answers (a, b, c, d) upon submitting, each question answerd right is lit grenn, and each wrong answer is red. The game doesn't provide the right answer. The player has the possibility to select one of the 3 other solutions and re-submit. The purpose of the game is to learn! 
   
 - The contact page with contact form which enables users to contact to the developer and provide their feedback
 - A separate 404 error page
@@ -301,7 +301,7 @@ When validating all website, it passes with no errors.
 
 - site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No errors
 
-### JS Validation
+### JavaScript Validation
 
 JSHint JS Validation Service was used to validate the Javascript files. Some Issues were found:
 
@@ -522,11 +522,6 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
 <img src="assets/docs/stories/story9.JPG">
 </details>
 
-## bugs
-
-| Fix                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-
 ## Deployment
 
 ### GitHub Pages
@@ -563,10 +558,14 @@ The website was deployed using GitHub Pages by following these steps:
 
 - [EmailJS](https://www.emailjs.com/docs/tutorial/creating-contact-form) official tutorial & playground environment within EmailJS Email Templates were used to create a contact form with email being sent to desired address
 -  [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) was reviewed to change input focus color
-- [quotable](https://api.quotable.io/random) part of freecodecamp. 
-- [hamburgerMenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work.
+-  [w3schools](https://www.w3schools.com/css/css3_buttons.asp) for styling the buttons.
+- [quotable](https://api.quotable.io/random) part of freecodecamp. This is what made possible the integration of the quote of the day section of the website
+- [hamburgerMenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work. the code is reused on the 3 pages.
 - [helpIcon](https://stackoverflow.com/questions/29102646/creating-a-help-icon-using-css) inspired by these tutorials
-- [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I was loosely inpired by this
+- [game](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d) this site inspired the RPS games. 
+- [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I was loosely inpired by this.  
+- [design] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) standars web design that i was inspired by. Header footer and main content in the middle.
+
 
 ## Acknowledgements
 
