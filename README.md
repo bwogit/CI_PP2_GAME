@@ -515,3 +515,48 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
 <details><summary>Screenshot</summary>
 <img src="assets/docs/stories/story9.JPG">
 </details>
+
+## bugs
+
+| Fix                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+
+## Deployment
+
+### GitHub Pages
+The website was deployed using GitHub Pages by following these steps:
+1. In GitHub repository cick on the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+5. The link to your published website will appear: "Your site is published at https://bwogit.github.io/CI_PP2_GAME/
+
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Click on Fork button in top right corner
+
+### Making a Local Clone
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
+
+## Credits
+
+### Images
+
+- All  icons throughout the site were taken from [Fontawesome](https://fontawesome.com/)
+- Background image: photo found on [unsplash](https://unsplash.com/)
+- Image for form confirmation was taken from [unsplash](https://unsplash.com/)
+
+### code
+
+
+- [EmailJS](https://www.emailjs.com/docs/tutorial/creating-contact-form) official tutorial & playground environment within EmailJS Email Templates were used to create a contact form with email being sent to desired address
+-  [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) was reviewed to change input focus color
+
+## Acknowledgements
+
