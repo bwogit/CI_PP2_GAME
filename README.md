@@ -164,7 +164,7 @@ The website has 3 webpages consisting of  distinct features described below
 
 ### Navigation Bar
 Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game, Quiz and Contact. The navigation bar is responsive down to hamburger menu on mobile devices.
-- user story covered 3, 14, 8
+- user story covered 3, 8, 14
 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_header.jpg">
@@ -244,7 +244,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 - Allows the regular user to take the quiz with different set of questions in no predetermined order increasing the interactivity of the site. you can play as much as you want and never find the same set of quations in the same oredr twice.
 
-- User Stories covered 12, 13, 6, 7
+- User Stories covered 6, 7, 12, 13
 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_shuffle.jpg">
@@ -292,7 +292,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 - contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Fcontact.html) - No errors
 
-- 404.html [results] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2F404.html) -No errors
+- 404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2F404.html) - No errors
 
 ### CSS Validation
 
@@ -569,6 +569,7 @@ The website was deployed using GitHub Pages by following these steps:
 
 ## Thanks
 Above all to God who never ever abandons me.
+- To myself for I have never worked so hard and learned so much in the process.
 - To CodeInstitute and LWETB for giving me this amazing opportunity
 - To mentor Mohamed Shami for his feedback, advice, guidance and constant support.
-- to myself for I have never worked so hard and learned so much in the process.
+
