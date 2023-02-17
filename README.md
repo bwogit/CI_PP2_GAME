@@ -485,3 +485,33 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
 <details><summary>Screenshot</summary>
 <img src="assets/docs/stories/story13.JPG">
 </details>
+
+14.	I want the site to be fully responsive
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|fully responsive site| design with responsivenesss in mind  | fully responsive | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story8.JPG">
+</details>
+
+15.	I want the user to land on 404 error page if they navigate to url that does not exist
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|page 404| if a link is broken or a page does not exist  | fully responsive 404 page with link back to home | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story15.JPG">
+</details>
+
+16.	I want user to be able to contact me and provide their feedback
+
+| **Feature**    | **Action**                                                           | **Expected Result**                               | **Actual Result** |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------- | ----------------- |
+|form page| Contact form with EmailJS capabilities  | Receive mail confirmation | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/stories/story9.JPG">
+</details>
