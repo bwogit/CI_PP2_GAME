@@ -3,7 +3,7 @@ RPS Corner is an esquisse ,for fans of rock paper scissors, who just want to rel
 <br>
 View the live site [here](https://bwogit.github.io/CI_PP2_GAME/index.html)
 <br><br>
-![Responsive site example]()
+![Responsive site example](assets/docs/features/responsive.JPG)
 
 <br>
 
@@ -190,6 +190,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_quote.jpg">
 </details>
+
 
 ### Footer 
 - Present on all pages. Provide a natural intuitive space to access socila media directly. link   presents are Instagran, Facebook, Youtube and EventBrite.
