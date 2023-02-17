@@ -293,6 +293,7 @@ Never a bad moment to learn something. Quotes from famous people. Everytime the 
 
 - contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2Fcontact.html) - No errors
 
+- 404.html [results] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fbwogit.github.io%2FCI_PP2_GAME%2F404.html) -No errors
 
 ### CSS Validation
 
@@ -327,8 +328,8 @@ All site pass with no errors whatsoever!
 
 - index.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/index.html) - No errors
 - quizz.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/quizz.html) - No errors
-- contact.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/contact.html)
-- 404.html[results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/404.html) 
+- contact.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/contact.html) - No errors
+- 404.html[results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/404.html) - No errors
 
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was the tool used to test the website perforances.
@@ -560,7 +561,7 @@ The website was deployed using GitHub Pages by following these steps:
 -  [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) was reviewed to change input focus color
 -  [w3schools](https://www.w3schools.com/css/css3_buttons.asp) for styling the buttons.
 - [quotable](https://api.quotable.io/random) part of freecodecamp. This is what made possible the integration of the quote of the day section of the website
-- [hamburgerMenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work. the code is reused on the 3 pages.
+- [hamburgermenu] (https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) inspired by this work. the code is reused on the 3 pages.
 - [helpIcon](https://stackoverflow.com/questions/29102646/creating-a-help-icon-using-css) inspired by these tutorials
 - [game](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d) this site inspired the RPS games. 
 - [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I was loosely inpired by this.  
