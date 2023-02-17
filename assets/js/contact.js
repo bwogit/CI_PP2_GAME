@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*
 * Call the quote of the day API
 */

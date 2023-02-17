@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /* create the list of questions var rpsQuestions is an array of questions and answers*/
 
 

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // JavaScript for the game logic
 
 /* Variables for tracking wins, losses */
