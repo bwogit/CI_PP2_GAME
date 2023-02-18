@@ -328,7 +328,7 @@ All site pass with no errors whatsoever!
 - index.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/index.html) - No errors
 - quizz.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/quizz.html) - No errors
 - contact.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/contact.html) - No errors
-- 404.html[results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/404.html) - No errors
+- 404.html [results](https://wave.webaim.org/report#/https://bwogit.github.io/CI_PP2_GAME/404.html) - No errors
 
 ### Performance
 Google Lighthouse in Google Chrome Developer Tools was the tool used to test the website perforances.
