@@ -37,6 +37,8 @@ Table of Content
     - [Testing user stories](#testing-user-stories)
   - [Deployment](#deployment)
   - [Credits](#credits)
+  - [Bugs](#bugs)
+  - [Improvement](#improvement)
   - [Thanks](#thanks)
 
 ## Project Goals
@@ -113,10 +115,10 @@ Google Fonts were implemented on the website. Lexend with sans-serif fallback wa
 The website structure was designed for easy learning and navigation. Each page of the website has the same container structure which maintains a certain harmony.
 
 - The website consist of 3 pages which all have the same header and footer elements and quote of the day
-  - header has the title and navigation
-  - Main page - quote of the day and computer and player scores
+- header has the title and navigation
+- Main page - quote of the day and computer and player scores
     
-  - Quizz page - Consist of 4 question MCQ taken at random out of a list of 13 (for this version of the game). Each question has 4 possible answers (a, b, c, d) upon submitting, each question answerd right is lit grenn, and each wrong answer is red. The game doesn't provide the right answer. The player has the possibility to select one of the 3 other solutions and re-submit. The purpose of the game is to learn! 
+- Quizz page - Consist of a four question MCQ taken at random out of a list of 13 (for this version of the game). Each question has 4 possible answers (a, b, c, d) upon submitting, each question answerd right is lit grenn, and each wrong answer is red. The game doesn't provide the right answer. The player has the possibility to select one of the 3 other solutions and re-submit. The purpose of the game is to learn! 
   
 - The contact page with contact form which enables users to contact to the developer and provide their feedback
 - A separate 404 error page
@@ -520,6 +522,7 @@ I used Google Chrome Developer Tools Toggle Device Toolbar to simulate below vie
 <img src="assets/docs/stories/story9.JPG">
 </details>
 
+
 ## Deployment
 
 ### GitHub Pages
@@ -563,6 +566,20 @@ The website was deployed using GitHub Pages by following these steps:
 - [game](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d) this site inspired the RPS games. 
 - [quizz](https://simplestepscode.com/javascript-quiz-tutorial/) I loosely inpired by this design I modified it to make it my own added shuffle functions and the restriction of only displaying 4 questions at the time.  
 - [design] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) standars web design that i was inspired by. Header footer and main content in the middle.
+
+## bugs
+
+there were some features I was not able to fix therefore i removed the features
+- quote of the day disapearing after 10 seconds withougt changing the layout of the screen (it was too buggy)
+
+
+
+
+## Improvement
+- this is the first iterration of the game. Focus was on functionalities. The site is in its most rudimentary form. For future versions I would like to implement
+- API for the questions or an list of 1000 qestions on RPS.
+- save scores
+
 
 
 ## Thanks
