@@ -53,7 +53,7 @@ function play(playerChoice) {
           
         document.getElementById("wins").innerHTML = wins;
         document.getElementById("losses").innerHTML = losses;
-          
+        // the game ends after the computer wins 3 times  
         if (losses === 3) {
             resetGame();
             alert("Game over!");
@@ -61,7 +61,7 @@ function play(playerChoice) {
 }
 
 /**
-* Resets wins, losses, playerChoice, computerChoice, results values to pre game conditions
+* Resets wins, losses, playerChoice, computerChoice, results values to pre game conditions (0)
 */
 
 function resetGame() {

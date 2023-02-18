@@ -164,7 +164,7 @@ The website has 3 webpages consisting of  distinct features described below
 
 ### Navigation Bar
 Navigation bar of the website, and is displayed on the 3 pages (Homepage), Game, Quiz and Contact. The navigation bar is responsive down to hamburger menu on mobile devices.
-- user story covered 3, 8, 14
+- user stories covered 3, 8, 14
 
 <details><summary>See feature</summary>
 <img src="assets/docs/features/features_header.jpg">
