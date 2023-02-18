@@ -41,7 +41,8 @@ form.addEventListener("submit", function (event) {
 });
 
 /**
- * Display a thank you image on the screen once the contact form has been submitted
+ * Display a thank you image on the screen once the contact form has been submitted.
+ * this function is never called unless the submit button is clicked
  */
 function formSubmittedMessage() {
   let message = `

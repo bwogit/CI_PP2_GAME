@@ -85,6 +85,7 @@ fetch("https://api.quotable.io/random")
 
 /**
  * Display the rules of the RPS game onclick
+ * this function is never called unless the button is clicked
  */
 function gameHelp() {
   let message = `

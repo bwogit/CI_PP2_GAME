@@ -4,9 +4,7 @@ RPS (Rock Paper Scissors) Corner is an esquisse, for fans of rock paper scissors
 View the live site [here](https://bwogit.github.io/CI_PP2_GAME/index.html)
 <br><br>
 ![Responsive site example](assets/docs/features/responsive.JPG)
-
 <br>
-
 # Table of Contents
 Table of Content
   - [Project Goals](#project-goals)
