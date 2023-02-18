@@ -14,7 +14,7 @@ const rpsQuestions = [
         correctAnswer: "a"
     },
     {
-        question: "By what other name is is known?",
+        question: "By what other name is RPS known?",
         choices:{
            a:"Mirabelle",
             b: "Patton",
@@ -24,7 +24,7 @@ const rpsQuestions = [
         correctAnswer: "d"   
     },
     {
-        question: "How many Players does it require?",
+        question: "How many Players does RPS require?",
         choices:{
             a:"1",
             b:"2",
@@ -34,7 +34,7 @@ const rpsQuestions = [
         correctAnswer: "b" 
     },
     {
-        question: "when was the game invented?",
+        question: "when was the RPS game invented?",
         choices:{
             a:"1913",
             b:"1789",
@@ -44,7 +44,7 @@ const rpsQuestions = [
         correctAnswer: "d" 
     },
     {
-        question: "What is it called in french?",
+        question: "What is RPS called in french?",
         choices:{
             a:"un, deux, trois",
             b:"s'il te plait",
@@ -54,7 +54,7 @@ const rpsQuestions = [
         correctAnswer: "d" 
     },
     {
-        question: "What is it called in Spanish?",
+        question: "What is RPS called in Spanish?",
         choices:{
             a:"piedra, papel, tijeras",
             b:"Corto de luces",
@@ -64,7 +64,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-        question: "During which dynasty was the game created?",
+        question: "During which dynasty was RPS game created?",
         choices:{
             a:"han",
             b:"ming",
