@@ -24,7 +24,7 @@ const rpsQuestions = [
         correctAnswer: "d"   
     },
     {
-        question: "How many Players does RPS require?",
+        question: "Number of Players needed?",
         choices:{
             a:"1",
             b:"2",
@@ -34,7 +34,7 @@ const rpsQuestions = [
         correctAnswer: "b" 
     },
     {
-        question: "when was the RPS game invented?",
+        question: "when was RPS game invented?",
         choices:{
             a:"1913",
             b:"1789",
@@ -64,7 +64,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-        question: "During which dynasty was RPS created?",
+        question: "Which dynasty created RPS?",
         choices:{
             a:"han",
             b:"ming",
@@ -74,7 +74,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-    question: "What is the most common throw?",
+        question: "What is the most common throw?",
         choices:{
             a:"rock",
             b:"paper",

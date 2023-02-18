@@ -573,12 +573,11 @@ there were some features I was not able to fix therefore i removed the features
 - quote of the day disapearing after 10 seconds withougt changing the layout of the screen (it was too buggy)
 
 
-
-
 ## Improvement
 - this is the first iterration of the game. Focus was on functionalities. The site is in its most rudimentary form. For future versions I would like to implement
 - API for the questions or an list of 1000 qestions on RPS.
 - save scores
+- on small screens, in the quizz page when the question is too long the end of the question is masked by the question mark. to remediate this issue I had to make sure the questions were small.... I would like to see a floating question mark....
 
 
 
