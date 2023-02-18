@@ -4,7 +4,7 @@
 
 const rpsQuestions = [
     {
-        question: "Where does Rock Paper Scissors originate from?",
+        question: "Where does RPS originate from?",
         choices:{
             a: "China",
             b: "Belgium",
@@ -64,7 +64,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-        question: "During which dynasty was RPS game created?",
+        question: "During which dynasty was RPS created?",
         choices:{
             a:"han",
             b:"ming",
@@ -84,7 +84,7 @@ const rpsQuestions = [
         correctAnswer: "a" 
     },
     {
-        question: "How many scenarios are there for RPS?",
+        question: "How many possible scenarios for RPS?",
             choices:{
                 a:"10 million",
                 b:"9",
