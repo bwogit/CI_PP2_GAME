@@ -102,7 +102,7 @@ input[type=checkbox]{
     color: red;
  }
 
-  /*---------------------------- Below is the Game area-----------------------------------------*/
+  /*---------------------------- Game area div common to 3 pages-----------------------------------------*/
   
   main{
   display: flex;
@@ -133,7 +133,7 @@ input[type=checkbox]{
     background-color: rgba(255, 253, 251, 0.862);
   }
 
-  /*-------- Help Icon---------------------*/
+  /*-------- Help Icon present on index.htlm and quizz.html---------------------*/
   .help-icon {
     position: absolute;
     top: 0;
