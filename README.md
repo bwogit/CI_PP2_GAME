@@ -587,5 +587,5 @@ Above all to God who never ever abandons me.
 - To myself for I have never worked so hard and learned so much in the process.
 - To CodeInstitute and LWETB for giving me this amazing opportunity
 - To my mentor Mohamed Shami for his feedback, advice, guidance and constant support.
-- To my frends and family who believe in me and constantly support and encourage me. 
+- To my family and friends who believe in me and constantly support and encourage me. 
 
